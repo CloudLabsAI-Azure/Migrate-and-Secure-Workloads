@@ -1,3 +1,5 @@
+# Migrate & Secure Workloads  
+
 ## Abstract and learning objectives
 
 In this hands-on lab, you will learn how to assess and migrate a multi-tier application from Hyper-V to Azure. You will learn how to use Azure Migrate as the hub for executing a migration, together with accompanying tools.
