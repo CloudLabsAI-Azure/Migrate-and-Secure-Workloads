@@ -1,0 +1,22 @@
+[
+    {
+      "Name": "Migrate and Secure Workloads",
+      "Language": "English",
+      "BaseURL": "https://github.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads",
+      "Files": [
+                
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/overview.md",
+          "Order": 1
+        },
+          {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/getting-started.md",
+          "Order": 2
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/getting-started.md",
+          "Order": 2
+        }
+      ]
+    }
+  ]
