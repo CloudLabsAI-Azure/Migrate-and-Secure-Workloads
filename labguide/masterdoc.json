@@ -14,8 +14,8 @@
           "Order": 2
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/getting-started.md",
-          "Order": 2
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/01-exercise1-discover-and-assess-onprem-env.md",
+          "Order": 3
         }
       ]
     }
