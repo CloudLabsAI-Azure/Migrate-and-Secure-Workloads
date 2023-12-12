@@ -4,19 +4,22 @@
       "Language": "English",
       "BaseURL": "https://github.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads",
       "Files": [
-                
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/overview.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
           "Order": 1
         },
-          {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/getting-started.md",
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/hol1-exe1-create-setup-azure-migrate.md",
           "Order": 2
         },
-        {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/01-exercise1-discover-and-assess-onprem-env.md",
+         {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/hol1-exe2-discover-assess-workloads-with-appliance.md",
           "Order": 3
-        }
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/hol1-exe3-migrate-servers-to-azure.md",
+          "Order": 4
+        }   
       ]
     }
   ]
