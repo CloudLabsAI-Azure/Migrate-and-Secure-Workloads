@@ -1,4 +1,4 @@
-# HOL 1: Migrate Windows & Linux Servers to Azure
+# HOL 1: Migrate Windows and Linux Servers to Azure
 
 Duration: 20 minutes
 
