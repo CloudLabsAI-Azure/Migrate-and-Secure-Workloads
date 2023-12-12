@@ -4,7 +4,7 @@ Duration: 20 minutes
 
 In this HOL, you will use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, using the Azure Migrate dependency visualization, and finally migrating the servers to Azure.
 
-### Exercise 1: Create and Setup Azure Migrate Project and Apliance
+### Exercise 1: Create and Setup Azure Migrate Project and Appliance
 
 In this exercise, you will create an Azure Migrate project and deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
 
