@@ -105,7 +105,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
 21. Wait for the **Appliance auto-update status (1)** to complete and select **Login (2)**. 
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/azmigrate-05.1.png "Azure Migrate login code")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/exe1-step21-login-appliance.png "Azure Migrate login code")
    
    > Now, follow the below instructions to complete the login process.
     
