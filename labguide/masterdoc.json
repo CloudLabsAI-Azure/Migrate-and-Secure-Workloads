@@ -5,7 +5,7 @@
       "BaseURL": "https://github.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads",
       "Files": [
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/gettingstartedfile.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/gettingstartedfile.md",
           "Order": 1
         },
         {
