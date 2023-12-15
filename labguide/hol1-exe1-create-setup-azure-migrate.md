@@ -110,8 +110,8 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
    > Now, follow the below instructions to complete the login process.
     
  22. At first, you will be presented with a **Continue with Azure login** pop-up. On the **Continue with Azure login** pop-up dialog, click on **Copy code & Login**.
-   
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the login code for the Azure Migrate project.](Images/azmigrate-05.png "Azure Migrate login code")
+
+     ![](Images/azmigrate-05v2.png "Azure Migrate login code")
   
  23. This will open an Azure login prompt in a new browser tab (if it doesn't appear, make sure the pop-up blocker in the browser is disabled) paste the **code (1)** and click on **Next (2)**. You will then be asked for your Azure portal credentials to complete the login process.
 
