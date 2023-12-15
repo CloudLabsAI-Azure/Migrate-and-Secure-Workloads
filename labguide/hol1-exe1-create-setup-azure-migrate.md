@@ -40,9 +40,9 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 7.  In **1: Generate project key**, provide the below name for the **Azure Migrate appliance (1)** that you will set up for the discovery of Hyper-V VMs. Select **Generate key (2)** to start the creation of the required Azure resources.
 
      ```
-     SmartHotelAppl
+     MigrateAppl
      ```
-    ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/azmigrate-03.png "Generate Azure Migrate project key")
+    ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/exe1-step7-create-appliance.png "Generate Azure Migrate project key")
 
 8.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** to your clipboard.
 
