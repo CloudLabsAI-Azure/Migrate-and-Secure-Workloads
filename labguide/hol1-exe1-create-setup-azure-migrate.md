@@ -77,7 +77,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
    
 15. Under Connect to AzureMigrateAppliance, click **Connect** and then log into the VM with the administrator password **<inject key="On-prem Servers Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
  
-    ![Screenshot of the Connect to AzureMigrateAppliance.](Images/HOL1-EX1-S14.png)
+    ![Screenshot of the Connect to AzureMigrateAppliance.](Images/HOL1-EX1-S14v2.png)
 
 16. Launch the **Azure Migrate appliance configuration Manager wizard** using the shortcut available on the desktop (wait for a minute or two, the browser will open showing the Azure Migrate appliance configuration wizard)
 
