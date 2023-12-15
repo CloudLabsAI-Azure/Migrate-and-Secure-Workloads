@@ -60,9 +60,9 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
       ![Screenshot of Hyper-V Manager, with the 'Hyper-V Manager' action highlighted.](Images/upd-hyper-v-manager.png "Hyper-V Manager")
 
-12. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (1)**. You should now see the AzureMigrateAppliance VM and seven VMs(2) that comprise the on-premises SmartHotel application and will be used in the next HOLs.
+12. In Hyper-V Manager, select **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (1)**. You should now see the five VMs(2) along with the AzureMigrateAppliance VM that comprise the on-premises environment and will be used in the next HOLs.
 
-    ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/HOL1-EX1-S11.png "Hyper-V Manager")
+    ![Screenshot of Hyper-V Manager on the SmartHotelHost.](Images/exe1-step12-view-hyperv-vms.png "Hyper-V Manager")
      
 13. In Hyper-V Manager, select the **AzureMigrateAppliance (1)** VM, then select **Start (2)** on the right if not already running.
 
