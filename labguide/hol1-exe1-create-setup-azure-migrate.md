@@ -19,8 +19,16 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 3. Under **Migration goals**, select **Servers, databases and web apps (1)** and then select **Create project (2)**.
  
     ![](Images/exe1-step3-create-migrate-project.png)
- 
 
+ 4. In the **Create project** wizard, provide the below information to create a Azure migrate project and select **Create (5)**. 
+      
+      * Subscription: **Select your Azure subscription (1)**
+      * Resource group: **MigrateServers (2)**
+      * Project: <inject key="Azure Migrate Project Name"></inject> **(3)**
+      * Geography: **United States (4)** 
+   
+    ![](Images/exe1-step4-create-migrate-project-with-details.png)
+   
 5. Under **Are your servers virtualized?**, select **Yes, with Hyper-V** from the **drop-down** menu.
 
     ![](Images/upd-SP-Ex1t2s2.png)
