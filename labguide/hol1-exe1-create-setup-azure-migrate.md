@@ -12,11 +12,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     * Azure Password: <inject key="AzureAdUserPassword"></inject>
 
-2. Click on **Show Portal Menu (1)** bar and select **All services (2)** in the portal's left navigation.
- 
-    ![Screenshot of the All services overview blade.](Images/Allservices1.png "All services Overview blade")
-
-3. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
+2. In the search bar, search for **Azure Migrate** and select it from the suggestions to open the Azure Migrate Overview blade, as shown below. 
  
     ![Screenshot of the Azure migrate overview blade.](Images/newmigrateasd.png "Azmigrate Overview blade")
 
