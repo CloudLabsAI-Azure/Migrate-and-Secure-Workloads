@@ -9,15 +9,15 @@
           "Order": 1
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/hol1-exe1-create-setup-azure-migrate.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol1-exe1-create-setup-azure-migrate.md",
           "Order": 2
         },
          {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/hol1-exe2-discover-assess-workloads-with-appliance.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol1-exe2-discover-assess-workloads-with-appliance.md",
           "Order": 3
         },
         {
-          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/AIW-Infra-Migration/main/Labfiles/hol1-exe3-migrate-servers-to-azure.md",
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol1-exe3-migrate-servers-to-azure.md",
           "Order": 4
         }   
       ]
