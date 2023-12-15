@@ -62,7 +62,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
     ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/HOL1-EX1-S13.png "Connect to AzureMigrateAppliance")
     
    
-14. Under Connect to AzureMigrateAppliance, click **Connect** and then log into the VM with the administrator password **<inject key="SmartHotel Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
+14. Under Connect to AzureMigrateAppliance, click **Connect** and then log into the VM with the administrator password **<inject key="On-prem Servers Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
  
     ![Screenshot of the Connect to AzureMigrateAppliance.](Images/HOL1-EX1-S14.png)
 
@@ -82,7 +82,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the first step 'Set up prerequisites' in progress. The internet connectivity and time sync steps have been completed.](Images/upd-prereq.png "Set up prerequisites")
 
-18. **Wait** for some time while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="SmartHotel Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
+18. **Wait** for some time while the wizard installs the latest Azure Migrate updates. If prompted for credentials, enter username **Administrator** and password **<inject key="On-prem Servers Admin Password" />**. Once the Azure Migrate updates are completed, you may see a pop-up if the management app restart is required, and if so, select **Refresh** to restart the app.  
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/upd-refresh.png "New update installed - Refresh")
 
@@ -121,8 +121,8 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 22. Specify the following details on the **Add credentials** blade for the Hyper-V host/cluster that the appliance will use to discover VMs and select **Save (4)**.
  
       1. Friendly name: Enter **hostlogin (1)** 
-      2. Username: **<inject key="SmartHotelHost Admin Username" /> (2)**
-      3. Password: **<inject key="SmartHotelHost Admin Password" /> (3)**
+      2. Username: **<inject key="HostVM Admin Username" /> (2)**
+      3. Password: **<inject key="HostVM Admin Password" /> (3)**
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the 'Add credentials' panel.](Images/upd-add-creds.png "Credentials")
 
