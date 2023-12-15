@@ -23,6 +23,8 @@
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
      ![](Images/image7.png "Enter Email")
+
+     > **Note:** If you get a **Download Microsoft Edge mobile app** popup, then click on **Do not show** dropdown and select **Don't show this recommendation again**. 
      
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
@@ -30,6 +32,10 @@
      ![](Images/image8.png "Enter Password")
      
    > If you are presented with **Help us protect your account** dialog box, then select **Skip for now** option.
+
+      ![](Images/gs-step3-azure-login.png "Enter Password")
+
+   > If you are presented with **Action Required** dialog box, then select **Ask later** option.
 
       ![](Images/MFA.png "Enter Password")
   
