@@ -124,6 +124,8 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project as completed.](Images/registrdsfdvd.png "Appliance registered")
 
+   > **Note:** If you are presented with **Action Required** dialog box, then select **Ask later** option.
+
    Once the registration has been completed, you can proceed to the next panel, **Manage credentials and discovery sources**.
 
 21. In **Step 1: Provide Hyper-V host credentials for the discovery of Hyper-V VMs** under **2. Manage credentials and discovery sources**, select **Add credentials**.
