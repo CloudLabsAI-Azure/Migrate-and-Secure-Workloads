@@ -72,7 +72,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
 14. In Hyper-V Manager, select the **AzureMigrateAppliance (1)** VM, then select **Connect (2)** on the right.
 
-    ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/HOL1-EX1-S13.png "Connect to AzureMigrateAppliance")
+    ![Screenshot of Hyper-V Manager showing the connect button for the Azure Migrate appliance.](Images/exe1-step14-connect-to-appliance-vm.png "Connect to AzureMigrateAppliance")
     
    
 15. Under Connect to AzureMigrateAppliance, click **Connect** and then log into the VM with the administrator password **<inject key="On-prem Servers Admin Password" />** (the login screen may pick up your local keyboard mapping, use the 'eyeball' icon to check).
