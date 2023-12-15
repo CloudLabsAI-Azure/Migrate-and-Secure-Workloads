@@ -33,11 +33,11 @@
      
    > If you are presented with **Help us protect your account** dialog box, then select **Skip for now** option.
 
-      ![](Images/gs-step3-azure-login.png "Enter Password")
+      ![](Images/MFA.png "Enter Password")
 
    > If you are presented with **Action Required** dialog box, then select **Ask later** option.
 
-      ![](Images/MFA.png "Enter Password")
+      ![](Images/gs-step3-azure-login.png "Enter Password")
   
 1. If you see the pop-up **Stay Signed in?**, click No
 
