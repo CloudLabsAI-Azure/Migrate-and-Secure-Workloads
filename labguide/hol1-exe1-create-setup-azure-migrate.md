@@ -101,7 +101,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
 20. At the next phase of the wizard, **Check latest updates and register appliance**, paste the **Azure Migrate project key (1)** that you copied from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
 
-    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project.](Images/azmigrate-04.1.png "Register with Azure Migrate")
+    ![Screenshot of the Azure Migrate appliance configuration wizard, showing the registration with the Azure Migrate project.](Images/exe1-step16-verify-appliance-key.png "Register with Azure Migrate")
 
 21. Wait for the **Appliance auto-update status (1)** to complete and select **Login (2)**. 
 
