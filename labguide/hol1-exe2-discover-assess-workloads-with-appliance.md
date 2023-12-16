@@ -154,7 +154,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     > **Note**: You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
 
-24. Close the virtual machine connection window for the **smarthotelweb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-22) for both agents (the administrator password is the same as for smarthotelweb1). Close the virtual machine connection window for the **smarthotelweb2 VM**, once the installation of agents is done.
+24. Close the virtual machine connection window for the **WindowsServer VM**.
 
 25. Open a command prompt using the desktop shortcut.  
 
