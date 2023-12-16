@@ -68,7 +68,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 4. On the **Dependencies** blade, select **Configure Log Analytics workspace**.
 
-    ![Screenshot of the Azure Migrate 'Dependencies' blade, with the 'Configure OMS Workspace' button highlighted.](Images/configureLAW.png "Configure OMS Workspace link")
+    ![Screenshot of the Azure Migrate 'Dependencies' blade, with the 'Configure OMS Workspace' button highlighted.](Images/hol1-exe2-task2-step4-select-configure-log-analytics-ws.png "Configure OMS Workspace link")
 
 5. On the **Configure Log Analytics workspace** blade, provide the below information and select **Configure (4)**.
 
