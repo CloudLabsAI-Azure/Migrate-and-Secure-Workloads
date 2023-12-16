@@ -95,76 +95,82 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 10. Select **Connect** again when prompted and log in to the **Administrator** account using the password **<inject key="On-prem Servers Admin Password" />**.
 
+     > **Note**: Once logged in, close the Server Manager application if it is open. You may also get a Network pop-up, select **No**.
+
 11. Go to **Start** button in the **WindowsServer** VM and select **Internet Explorer** to open it. Paste the link to the 64-bit Microsoft Monitoring Agent for Windows, which you noted earlier. When prompted, **Run** the installer.
 
-     > **Note**: You may need to disable **Internet Explorer Enhanced Security Configuration** on **Server Manager** under **Local Server** to complete the download. 
+     > **Note**:
+
+     >> a) You may need to disable **Internet Explorer Enhanced Security Configuration** on **Server Manager** under **Local Server** to complete the download.
+
+     >> b) If you get **Set up Internet Explorer 11** pop-up, select **Don't use recommended settings** and then select **OK**. 
 
     ![Screenshot showing the Internet Explorer prompt to run the installer for the Microsoft Monitoring Agent.](Images/upd-mma-win-run.png "Run MMA installer")
 
-12. On the **Welcome to the Microsoft Monitoring Agent Setup Wizard** blade, select **Next**. 
+13. On the **Welcome to the Microsoft Monitoring Agent Setup Wizard** blade, select **Next**. 
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma1.png "MMA installation")
 
-13. On the **Microsoft Software License Terms** blade, select **I Agree**.
+14. On the **Microsoft Software License Terms** blade, select **I Agree**.
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma2.png "MMA installation")
 
-14. On the **Destination Folder** blade, leave everything as default and select **Next**. 
+15. On the **Destination Folder** blade, leave everything as default and select **Next**. 
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma3.png "MMA installation") 
 
-15. On the **Agent Setup Options** blade, select **Connect the agent to Azure Log Analytics (OMS) (1)** and select **Next (2)**.
+16. On the **Agent Setup Options** blade, select **Connect the agent to Azure Log Analytics (OMS) (1)** and select **Next (2)**.
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma4.png "MMA installation") 
 
-16. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial (1)** from the Azure Cloud drop-down then select **Next (2)**.
+17. On the **Azure Log Analytics** blade, enter the **Workspace ID** and **Workspace Key** that you copied earlier, and select **Azure Commercial (1)** from the Azure Cloud drop-down then select **Next (2)**.
 
     ![Screenshot of the Microsoft Monitoring Agent install wizard, showing the Log Analytics (OMS) workspace ID and key.](Images/upd-mma-wizard.png "MMA agent installer - workspace configuration")
 
-17. On the **Microsoft Update** blade, leave everything as default and select **Next**. 
+18. On the **Microsoft Update** blade, leave everything as default and select **Next**. 
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/updt-mma7.png "MMA installation")
 
-18. On the **Ready to Install** blade, click on **Install**. 
+19. On the **Ready to Install** blade, click on **Install**. 
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/mma5.png "MMA installation")
 
-19. Select **Finish** to finish the installation process of **Microsoft Monitoring Agent for Windows**.
+20. Select **Finish** to finish the installation process of **Microsoft Monitoring Agent for Windows**.
 
     ![Screenshot for installing 64-bit Microsoft Monitoring Agent for Windows.](Images/upd-mma6.png "MMA installation")
 
-20. Paste the link to the **Dependency Agent Windows installer** into the browser address bar. **Run** the installer.
+21. Paste the link to the **Dependency Agent Windows installer** into the browser address bar. **Run** the installer.
 
     ![Screenshot showing the Internet Explorer prompt to run the installer for the Dependency Agent.](Images/upd-da-win-run.png "Run Dependency Agent installer")
 
-21. On the **License Agreement** blade, select **I Agree** to accept the agreement and continue. 
+22. On the **License Agreement** blade, select **I Agree** to accept the agreement and continue. 
 
     ![Screenshot for installing Dependency Agent.](Images/dependencyagent1.png "Dependency Agent installation") 
 
-22. On the **Completing Dependency Agent Setup** blade, select **Finish** to finish the installation process.
+23. On the **Completing Dependency Agent Setup** blade, select **Finish** to finish the installation process.
 
     ![Screenshot for installing Dependency Agent.](Images/dependencyagent2.png "Dependency Agent installation") 
  
 
     > **Note**: You do not need to configure the workspace ID and key when installing the Dependency Agent, since it uses the same settings as the Microsoft Monitoring Agent, which must be installed beforehand.
 
-23. Close the virtual machine connection window for the **smarthotelweb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-22) for both agents (the administrator password is the same as for smarthotelweb1). Close the virtual machine connection window for the **smarthotelweb2 VM**, once the installation of agents is done.
+24. Close the virtual machine connection window for the **smarthotelweb1 VM**. Connect to the **smarthotelweb2 VM** and repeat the installation process (steps 10-22) for both agents (the administrator password is the same as for smarthotelweb1). Close the virtual machine connection window for the **smarthotelweb2 VM**, once the installation of agents is done.
 
-24. Open a command prompt using the desktop shortcut.  
+25. Open a command prompt using the desktop shortcut.  
 
     > **Note**: The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
 
-25. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
+26. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
 
     ```bash
     ssh demouser@192.168.0.8
     ```
 
-26. Enter 'yes' when prompted whether to connect. Use the password **<inject key="On-prem Servers Admin Password" />**.
+27. Enter 'yes' when prompted whether to connect. Use the password **<inject key="On-prem Servers Admin Password" />**.
 
     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/ssh.png "SSH session with UbuntuWAF")
 
-27. Enter the following command, followed by the password **<inject key="On-prem Servers Admin Password" />** when prompted:
+28. Enter the following command, followed by the password **<inject key="On-prem Servers Admin Password" />** when prompted:
   
     ```
     sudo -s
@@ -172,7 +178,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     > This gives the terminal session elevated privileges.
 
-28. Enter the following command, substituting \<Workspace ID\> and \<Primary Key\> with the values copied previously. Answer **Yes** when prompted to restart services during package upgrades without asking.  
+29. Enter the following command, substituting \<Workspace ID\> and \<Primary Key\> with the values copied previously. Answer **Yes** when prompted to restart services during package upgrades without asking.  
 
     ```
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Primary Key>
@@ -184,19 +190,19 @@ In this task, you will configure the Azure Migrate dependency visualization feat
      apt-get update
      ```
 
-29. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
+30. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
     /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
     ```
 
-30. Enter the following command. This downloads a script that will install the Dependency Agent.
+31. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s
     wget --content-disposition https://aka.ms/dependencyagentlinux -O InstallDependencyAgent-Linux64.bin
     ```
 
-31. Install the dependency agent by running the script download in the previous step.
+32. Install the dependency agent by running the script download in the previous step.
 
     ```s
     sh InstallDependencyAgent-Linux64.bin -s
@@ -205,17 +211,17 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/da-linux-done.png "Dependency Agent installation was successful")
     
 
-32. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+33. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
     ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-dependency-viz-installed.png "Dependency agent installed")
    
      >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#4-exercise1---task6---step1) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
-33. Select **View dependencies**.
+34. Select **View dependencies**.
 
     ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
    
-34. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
+35. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
     
