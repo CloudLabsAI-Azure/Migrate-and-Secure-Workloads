@@ -184,25 +184,29 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w <Workspace ID> -s <Primary Key>
     ```
     
-    > **Note**: If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
-     
+    > **Note**:
+    >> a) If you receive any error while running the above command, run the below command to update the packages and perform **Step 28** again.
+    
+    >> b) If you receive a warning **The Log Analytics agent is on a deprecation path**, then ignore it. 
+
+
      ```
      apt-get update
      ```
 
-30. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
+29. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
 
     ```s
     /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
     ```
 
-31. Enter the following command. This downloads a script that will install the Dependency Agent.
+30. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s
     wget --content-disposition https://aka.ms/dependencyagentlinux -O InstallDependencyAgent-Linux64.bin
     ```
 
-32. Install the dependency agent by running the script download in the previous step.
+31. Install the dependency agent by running the script download in the previous step.
 
     ```s
     sh InstallDependencyAgent-Linux64.bin -s
@@ -211,7 +215,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ![Screenshot showing that the Dependency Agent install on Linux was successful.](Images/da-linux-done.png "Dependency Agent installation was successful")
     
 
-33. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
+32. Return to the Azure Portal and refresh the Azure Migrate **SmartHotel VMs** VM group blade. The 3 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
     ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-dependency-viz-installed.png "Dependency agent installed")
    
