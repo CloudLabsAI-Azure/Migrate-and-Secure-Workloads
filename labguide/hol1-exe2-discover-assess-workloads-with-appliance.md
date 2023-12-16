@@ -54,9 +54,9 @@ When migrating a workload to Azure, it is important to understand all workload d
 
 In this task, you will configure the Azure Migrate dependency visualization feature. This requires you to first create a Log Analytics workspace, and then to deploy agents on the to-be-migrated VMs.
 
-1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment** select **Groups (2)**.
+1. Return to the **Azure Migrate** blade in the Azure Portal, select **Servers, databases and web apps (1)**. Under **Discovery and assessment**, select **1 (2)** under **Groups**.
 
-    ![](Images/upd-nwgrpopen.png)   
+    ![](Images/hol1-exe2-task2-step1-select-groups.png)   
 
 2. Under the **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
 
