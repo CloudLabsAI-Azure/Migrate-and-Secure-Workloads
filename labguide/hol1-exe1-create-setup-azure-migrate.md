@@ -81,11 +81,18 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
 16. Launch the **Azure Migrate appliance configuration Manager wizard** using the shortcut available on the desktop (wait for a minute or two, the browser will open showing the Azure Migrate appliance configuration wizard)
 
-     > **Note:** If you are prompted with New updates available pop-up when connected with AzureMigrateAppliance VM, just click on View updates and then close the settings panel for now.
+     > **Note:**
+     >> a) If you are prompted with New updates available pop-up when connected with AzureMigrateAppliance VM, just click on View updates and then close the settings panel for now.
+
+     >> b) If you get a warning **Your connection isn't private** in the browser page post launching the **Azure Migrate appliance configuration Manager wizard**, then close the browser application and launch the **Azure Migrate appliance configuration Manager** again.
+      
 
     ![Screenshot of the Azure Migrate appliance terms of use.](Images/HOL1-EX1-S15.png "Desktop shortcut")
     
     >**Note**: If you receive a prompt asking for credentials after launching the **Azure Migrate appliance configuration wizard** using the shortcut available on the desktop, please follow the instructions from [here](https://github.com/CloudLabsAI-Azure/Know-Before-You-Go/blob/main/AIW-KBYG/AIW-Infrastructure-Migration.md#1-exercise1---task3---step3) to connect to Azure Migrate appliance configuration wizard.
+
+
+   
 
 17. On opening of the appliance configuration wizard, if a pop-up with the license terms appears, accept the terms by selecting **I agree**.
 
