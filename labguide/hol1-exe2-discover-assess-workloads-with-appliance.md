@@ -79,7 +79,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 6. Wait for the workspace to be deployed. Once it is deployed, navigate to **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" />** by clicking on it.
 
-    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/omsworkspace.png "OMS Workspace settings")
+    ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/hol1-exe2-task2-step6-select-created-log-analytics-ws.png "OMS Workspace settings")
 
 7. Select **Agents (1)** under **Settings** from the left-hand side menu. Make a note of the **Workspace ID (2)** and **Primary Key (3)** (for example by using Notepad).
 
