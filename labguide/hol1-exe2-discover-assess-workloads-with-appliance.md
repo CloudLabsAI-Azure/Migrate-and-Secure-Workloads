@@ -87,7 +87,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 8. Return to the Azure Migrate **Dependencies** blade. Copy each of the 4 agent download URLs and paste them alongside the Workspace ID and key you noted in the previous step. 
    
-    ![Screenshot of the Azure Migrate 'Dependencies' blade with the 4 agent download links highlighted.](Images/upd-agent-links.png "Agent download links")
+    ![Screenshot of the Azure Migrate 'Dependencies' blade with the 4 agent download links highlighted.](Images/hol1-exe2-task2-step8-copy-agent-download-urls.png "Agent download links")
 
 9. From **Hyper-V Manager** console, select **smarthotelweb1 (1)** and select **Connect (2)**.
 
