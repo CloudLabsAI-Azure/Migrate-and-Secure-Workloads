@@ -24,7 +24,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
       
       * Subscription: **Select your Azure subscription (1)**
       * Resource group: **MigrateServers (2)**
-      * Project: <inject key="Azure Migrate Project Name"></inject> **(3)**
+      * Project: **<inject key="Azure Migrate Project Name"></inject> (3)**
       * Geography: **United States (4)** 
    
     ![](Images/exe1-step4-create-migrate-project-with-details.png)
