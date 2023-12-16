@@ -29,11 +29,11 @@ In this task, you will use Azure Migrate to create a migration assessment for th
      1. Select the **WindowsServer**, **UbuntuServer**, and **redhat** VMs **(5)** and
      1. Click on **Next: Review+Create assessment (6)**.
 
-    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/updt-hol1-e2-t1-s4.png "Assessment VM group")
+    ![Screenshot of the Azure Migrate 'Assess servers' page. A new server group containing servers smarthotelweb1, smarthotelweb2, and UbuntuWAF.](Images/hol1-exe2-step4-create-assessment-select-serversv2.png "Assessment VM group")
 
-    > **Note**: There is no need to include the **smarthotelSQL1**, **AzureMigrateAppliance** and other VMs in the assessment, since they will not be migrated to Azure.
+    > **Note**: There is no need to include the **AzureArcVM**, **AzureMigrateAppliance** and other VMs in the assessment, since they will not be migrated to Azure.
     
-    > **Note**: Please note that even though we are adding **redhat** VM to the assessment here, we will not be setting up our environment in redhat VM in this exercise. Users will review the assessment and perform all the steps for environment setup in HOL2.
+    > **Note**: Please note that even though we are adding **redhat** VM to the assessment here, we will not be setting up our environment in redhat VM in this exercise. It is just for users to review the assessment.
     
     
 5. Click on **Create assessment** to create the assessment. 
