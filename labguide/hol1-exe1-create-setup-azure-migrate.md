@@ -106,7 +106,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
     ![Screenshot of the Azure Migrate appliance configuration wizard, showing the prompt to restart the management app after installing updates.](Images/upd-refresh.png "New update installed - Refresh")
 
-   > **Note:** It might take 15-20 minutes for Azure Migrate to install updates. If you do not get any pop-up after waiting, then proceed to next step.   
+      > **Note:** It might take 15-20 minutes for Azure Migrate to install updates. If you do not get any pop-up after waiting, then proceed to next step.   
 
 20. At the next phase of the wizard, **Check latest updates and register appliance**, paste the **Azure Migrate project key (1)** that you copied from the Azure portal earlier and select **Verify (2)** to verify the Azure Migrate project key. 
 
