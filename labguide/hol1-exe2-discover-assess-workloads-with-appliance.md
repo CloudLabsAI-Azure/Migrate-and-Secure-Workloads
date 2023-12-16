@@ -46,7 +46,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
     
 7. Select **Assessments (1)** under **Azure Migrate: Discovery and assessment** to see a list of assessments. Then select the **actual assessment (2)**.
 
-    ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/upd-assessment-list-v2.png "Azure Migrate - Assessments (list)")
+    ![Screenshot showing a list of Azure Migrate assessments. There is only one assessment in the list. It has been highlighted.](Images/hol1-exe2-step7-select-assessment-group.png "Azure Migrate - Assessments (list)")
 
 ### Task 2: Configure dependency visualization
 
