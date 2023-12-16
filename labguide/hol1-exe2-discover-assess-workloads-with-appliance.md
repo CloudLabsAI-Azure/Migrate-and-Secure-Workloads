@@ -38,7 +38,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
     
 5. Click on **Create assessment** to create the assessment. 
 
-    ![](Images/upd-hol1-e2-t1-s5.png)
+    ![](Images/hol1-exe2-step5-create-assessment.png)
 
 6. In Azure Migrate, on the **Servers, databases, and web apps** blade, select **Refresh** periodically until the number of assessments shown is **1** (This may take few minutes). Once the assessments count is updated, click on **1** that is next to **Total** under **Assessments**.  
 
