@@ -126,7 +126,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
 
       ![Screenshot of the Azure Migrate appliance login window, showing where to copy and paste the login code for the Azure Migrate project.](Images/azmigrate-06.png "Azure Migrate Microsoft login")
 
- 24. Login using the below Azure credentials and select **Ask later** option in the **Action Required** dialog box. Then, select **Continue** on the **Are you trying to sign in to Microsoft Azure PowerShell?** window to complete the login process. Once you have logged in, return to the Azure Migrate Appliance tab and the appliance registration will start automatically and displays below message once the registration is successful.
+ 24. Login using the below Azure credentials and select **Continue** on the **Are you trying to sign in to Microsoft Azure PowerShell?** window to complete the login process. Once you have logged in, return to the Azure Migrate Appliance tab and the appliance registration will start automatically and displays below message once the registration is successful.
     
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
     
