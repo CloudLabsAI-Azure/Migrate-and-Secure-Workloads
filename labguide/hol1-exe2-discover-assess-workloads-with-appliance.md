@@ -58,9 +58,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
     ![](Images/hol1-exe2-task2-step1-select-groups.png)   
 
-2. Under the **Groups (1)** pane, select the **SmartHotel VMs (2)** group to see the group details. 
+2. Under the **Groups (1)** pane, select the **Hyper-V VMs (2)** group to see the group details. 
 
-    ![](Images/upd-hol1-e2-t2-s2.png)   
+    ![](Images/hol1-exe2-task2-step2-select-hyperv-group.png)   
 
 3. Note that each VM has their **Dependencies** status as **Requires agent installation**. Select **Requires agent installation** for the **smarthotelweb1** VM.
 
