@@ -2,7 +2,7 @@
 
 Duration: 45 minutes
 
-## Exercise 1: Replicate and Migrate On-premises Virtual Machines to Azure, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+## Exercise 3: Replicate and Migrate On-premises Virtual Machines to Azure, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
 ### Task 1: Create a Storage Account
 
