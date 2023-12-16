@@ -10,7 +10,7 @@ In this task, you will use Azure Migrate to create a migration assessment for th
 
 1. Select **Assess (1)** under **Azure Migrate: Discovery and assessment** and click on **Azure VM (2)** to start a new migration assessment.
 
-    ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/newasses.png "Start assessment")
+    ![Screenshot of the Azure Migrate portal blade, with the '+Assess' button highlighted.](Images/hol1-exe2-step1-assess.png "Start assessment")
 
 2. On the Basics blade, ensure the Assessment type to be **Azure VM** and Discovery Source to be **Servers discovered from Migrate Appliance**. Under **Assessment settings**, select **Edit**.
 
