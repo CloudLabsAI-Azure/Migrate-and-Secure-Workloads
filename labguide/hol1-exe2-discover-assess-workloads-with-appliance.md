@@ -89,13 +89,13 @@ In this task, you will configure the Azure Migrate dependency visualization feat
    
     ![Screenshot of the Azure Migrate 'Dependencies' blade with the 4 agent download links highlighted.](Images/hol1-exe2-task2-step8-copy-agent-download-urls.png "Agent download links")
 
-9. From **Hyper-V Manager** console, select **smarthotelweb1 (1)** and select **Connect (2)**.
+9. From **Hyper-V Manager** console, select **WindowsServer (1)** and select **Connect (2)**.
 
-    ![Screenshot from Hyper-V manager highlighting the 'Connect' button for the smarthotelweb1 VM.](Images/HOL1-EX2-T2-S9.png "Connect to smarthotelweb1")
+    ![Screenshot from Hyper-V manager highlighting the 'Connect' button for the smarthotelweb1 VM.](Images/hol1-exe2-task2-step9-connect-to-windowsserver.png "Connect to smarthotelweb1")
 
-10. Select **Connect** again when prompted and log in to the **Administrator** account using the password **<inject key="SmartHotel Admin Password" />**.
+10. Select **Connect** again when prompted and log in to the **Administrator** account using the password **<inject key="On-prem Servers Admin Password" />**.
 
-11. Go to **Start** button in the **smarthotelweb1** VM and select **Internet Explorer** to open it. Paste the link to the 64-bit Microsoft Monitoring Agent for Windows, which you noted earlier. When prompted, **Run** the installer.
+11. Go to **Start** button in the **WindowsServer** VM and select **Internet Explorer** to open it. Paste the link to the 64-bit Microsoft Monitoring Agent for Windows, which you noted earlier. When prompted, **Run** the installer.
 
      > **Note**: You may need to disable **Internet Explorer Enhanced Security Configuration** on **Server Manager** under **Local Server** to complete the download. 
 
@@ -160,11 +160,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
     ssh demouser@192.168.0.8
     ```
 
-26. Enter 'yes' when prompted whether to connect. Use the password **<inject key="SmartHotel Admin Password" />**.
+26. Enter 'yes' when prompted whether to connect. Use the password **<inject key="On-prem Servers Admin Password" />**.
 
     ![Screenshot showing the command prompt with an SSH session to UbuntuWAF.](Images/ssh.png "SSH session with UbuntuWAF")
 
-27. Enter the following command, followed by the password **<inject key="SmartHotel Admin Password" />** when prompted:
+27. Enter the following command, followed by the password **<inject key="On-prem Servers Admin Password" />** when prompted:
   
     ```
     sudo -s
