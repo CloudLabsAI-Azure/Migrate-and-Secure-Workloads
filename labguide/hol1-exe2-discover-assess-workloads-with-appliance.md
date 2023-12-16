@@ -158,9 +158,9 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 25. Open a command prompt using the desktop shortcut.  
 
-    > **Note**: The SmartHotelHost runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
+    > **Note**: The HostVM runs Windows Server 2019 with the Windows Subsystem for Linux enabled. This allows the command prompt to be used as an SSH client. More info of supported Linux on Azure can be found here: https://Azure.com/Linux. 
 
-26. Enter the following command to connect to the **UbuntuWAF** VM running in Hyper-V on the SmartHotelHost:
+26. Enter the following command to connect to the **UbuntuServer** VM running in Hyper-V on the HostVM:
 
     ```bash
     ssh demouser@192.168.0.8
