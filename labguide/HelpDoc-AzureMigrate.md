@@ -11,7 +11,7 @@
        Heartbeat
        ```
 
-      ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/helpdoc-step2-select-logs-close-video.png "View dependencies")
+      ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/helpdoc-step2-select-logs-close-videov2.png "View dependencies")
 
 
 
