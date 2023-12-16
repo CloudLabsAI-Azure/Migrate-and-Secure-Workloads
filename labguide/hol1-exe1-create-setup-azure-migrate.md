@@ -44,7 +44,7 @@ In this exercise, you will create an Azure Migrate project and deploy the Azure 
      ```
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the 'Generate Azure Migrate project key' section.](Images/exe1-step7-create-appliance.png "Generate Azure Migrate project key")
 
-8.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** to your clipboard and paste in a text editor of your choice for later use.
+8.  **Wait** for the key to be generated, then copy the **Azure Migrate project key** to your clipboard and paste it in a text editor of your choice for later use.
 
     ![Screenshot of the Azure Migrate 'Discover machines' blade showing the Azure Migrate project key.](Images/exe1-step8-copy-key.png "Azure Migrate project key")
 
