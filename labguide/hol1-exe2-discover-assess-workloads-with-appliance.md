@@ -221,11 +221,11 @@ In this task, you will configure the Azure Migrate dependency visualization feat
    
      >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/blob/main/labguide/HelpDoc-AzureMigrate.md) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
-34. Select **View dependencies**.
+33. Select **View dependencies**.
 
-    ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/upd-view-dependencies.png "View dependencies")
+    ![Screenshot showing the view dependencies button in the Azure Migrate VM group blade.](Images/hol1-exe2-task2-step33-select-view-dependency-button.png "View dependencies")
    
-35. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
+34. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
     ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
     
