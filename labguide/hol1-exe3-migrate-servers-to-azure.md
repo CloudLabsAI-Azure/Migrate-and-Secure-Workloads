@@ -120,7 +120,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 1. Under **Migration and modernization**, select **Replicate**. This opens the **Replicate** wizard.
 
-     ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/replicatenw.png "Replicate link")
+     ![Screenshot highlighting the 'Replicate' button in the 'Azure Migrate: Server Migration' panel of the Azure Migrate - Servers blade.](Images/HOL1-EX3-T3-S1-select-replicate.png "Replicate link")
    
 2. Under **Specific Intent** page, provide the below details:
 
