@@ -143,13 +143,13 @@ In this task, you will configure and enable the replication of your on-premises 
      ![Screenshot of the 'Virtual machines' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The UbuntuServer and WindowsServer machines are selected.](Images/HOL1-EX3-T3-S5-select-replication-vms.png "Replicate - Virtual machines")
 
 6. On the **Target settings** tab, select the below information,
-   - Select your subscription and the existing **SmartHotelHostRG (1)** resource group. 
+   - Select your subscription and the existing **MigrateServers (1)** resource group. 
    - **Replication storage account**: Enter the storage account here from drop down which you create in task 1 **(2)**. 
-   - **Virtual Network**: Select **SmartHotelVNet (3)**. 
-   - **Subnet**: Select **SmartHotel (4)**. 
+   - **Virtual Network**: Select **OnPremServerVNet (3)**. 
+   - **Subnet**: Select **MigrateSubnet (4)**. 
    - Leave other values as default and select **Next (5)**.
    
-     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-S6.png)
+     ![Screenshot of the 'Target settings' tab of the 'Replicate' wizard in Azure Migrate Server Migration. The resource group, storage account and virtual network created earlier in this exercise are selected.](Images/HOL1-EX3-T3-S6-replicate-target-settings-tab.png)
 
    > **Note:** For simplicity, in this lab you will not configure the migrated VMs for high availability, since each application tier is implemented using a single VM.
 
