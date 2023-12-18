@@ -36,7 +36,7 @@ In this task you will create a new Azure Storage Account that will be used by Mi
 
 5. Select **Data protection** under **Data management** from the left-hand side menu of storage account.
 
-   ![Screenshot of the Azure portal showing the create storage account blade.](Images/1.3.png)
+   ![Screenshot of the Azure portal showing the create storage account blade.](Images/HOL1-EX3-T1-S5-select-data-protection.png)
 
 6. Now, uncheck the box next to **Enable soft delete for blobs** and **Enable soft delete for containers** to disable the soft delete on blobs and container as the soft delete enabled storage account is **not supported** for enabling replication on Virtual Machines. Click on **Save**.
 
