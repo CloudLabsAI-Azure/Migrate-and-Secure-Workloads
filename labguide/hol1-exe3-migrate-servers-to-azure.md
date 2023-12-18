@@ -106,9 +106,9 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
      ![Screenshot of the 'Discover machines' panel from Azure Migrate, showing the 'Registration finalized' message.](Images/upd-discover-7.png "Registration finalized")
 
-13. The **Migration and modernization** panel should now show 7 discovered servers.
+13. The **Migration and modernization** panel should now show 5 discovered servers.
 
-     ![Screenshot of the 'Azure Migrate - Servers' blade showing 6 discovered servers under 'Azure Migrate: Server Migration'.](./Images/HOL1-EX3-T2-S13-view-servers-in-modernization-tool.png "Discovered servers")
+     ![Screenshot of the 'Azure Migrate - Servers' blade showing 5 discovered servers under 'Azure Migrate: Server Migration'.](./Images/HOL1-EX3-T2-S13-view-servers-in-modernization-tool.png "Discovered servers")
 
 #### Task summary 
 
