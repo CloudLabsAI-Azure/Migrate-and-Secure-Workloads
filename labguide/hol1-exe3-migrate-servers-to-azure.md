@@ -14,11 +14,11 @@ In this task you will create a new Azure Storage Account that will be used by Mi
 
     ![Screenshot of the Azure portal showing the create storage account navigation.](Images/1.1.png "Storage account - Create")
 
-2. In the **Create storage account** blade, on the **Basics** tab, use the following values:
+2. In the **Create storage account** blade, on the **Basics** tab, provide the following values and select **Review (7)**:
 
    - Subscription: **Select your Azure subscription (1)**.
   
-   - Resource group: **AzureMigrateRG (2)**
+   - Resource group: **MigrateServers (2)**
   
    - Storage account name: **migrationstorage<inject key="DeploymentID" enableCopy="false" /> (3)**
 
@@ -28,7 +28,7 @@ In this task you will create a new Azure Storage Account that will be used by Mi
   
    - Redundancy: **Locally-redundant storage (LRS) (6)**
 
-    ![Screenshot of the Azure portal showing the create storage account blade.](Images/HOL1-EX3-T1-S2.png "Storage account settings")
+    ![Screenshot of the Azure portal showing the create storage account blade.](Images/HOL1-EX3-T1-S2-Create-Storage-provide-values.png "Storage account settings")
 
 3. Select **Review**, then select **Create**.
 
