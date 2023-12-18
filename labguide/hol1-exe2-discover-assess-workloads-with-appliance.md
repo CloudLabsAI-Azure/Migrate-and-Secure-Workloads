@@ -227,7 +227,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
    
 34. Take a few minutes to explore the dependencies view. Expand each server to show the processes running on that server. Select a process to see process information. See which connections each server makes.
 
-    ![Screenshot showing the dependencies view in Azure Migrate.](Images/dependencies1.png "Dependency map")
+    ![Screenshot showing the dependencies view in Azure Migrate.](Images/hol1-exe2-task2-step34-view-dependency.png "Dependency map")
     
 
 #### Task summary 
