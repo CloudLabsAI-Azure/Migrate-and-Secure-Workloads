@@ -30,7 +30,7 @@ In this task you will create a new Azure Storage Account that will be used by Mi
 
     ![Screenshot of the Azure portal showing the create storage account blade.](Images/HOL1-EX3-T1-S2-Create-Storage-provide-values.png "Storage account settings")
 
-3. Select **Review**, then select **Create**.
+3. In the review page, select **Create**.
 
 4. Once the storage account is deployed, click on **Go to resource** to open it.
 
