@@ -82,7 +82,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
 
 6. When the installation has completed select **Register**. Browse to the location of the key file you downloaded. When the key is loaded select **Next**.
 
-     ![Screenshot of the ASR provider registration settings.](Images/upd-asr-registration.png "Key file registration")
+     ![Screenshot of the ASR provider registration settings.](Images/HOL1-EX3-T2-S6-locate-key.png "Key file registration")
 
 7. Select **Connect directly to Azure Site Recovery without a proxy server (1)** and select **Next (2)**. The registration of the Hyper-V host with Azure Site Recovery will begin.
 
