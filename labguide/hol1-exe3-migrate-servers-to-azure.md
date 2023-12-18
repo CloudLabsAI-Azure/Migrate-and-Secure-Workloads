@@ -155,11 +155,11 @@ In this task, you will configure and enable the replication of your on-premises 
 
 7. On the **Compute** tab, select the below configuration,
    - Select the **Standard_F2s_v2** VM size for each virtual machine. 
-   - Select the **Windows** operating system for the **smarthotelweb1**, **smarthotelweb2** virtual machines.
+   - Select the **Windows** operating system for the **smarthotelweb1** virtual machines.
    - Select the **Linux** operating system for the **UbuntuWAF** virtual machine. 
    - Select **Next**. 
 
-   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/upd-replicate-6.png "Replicate - Compute")
+   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/Update_Replication.png "Replicate - Compute")
     
 
 8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
@@ -168,13 +168,13 @@ In this task, you will configure and enable the replication of your on-premises 
 
      ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/newoverviewreplication.png "Overview link")
     
-10. Confirm that the 3 machines are replicating.
+10. Confirm that the 2 machines are replicating.
 
-     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/upd-overviewnew.png "Replication summary")
+     ![Screenshot of the 'Azure Migrate: Server Migration' overview blade showing the replication state as 'Healthy' for 3 servers.](Images/UPdate_Replication2.png "Replication summary")
 
-11. Select **Replicating Machines (1)** under **Manage** on the left.  Select **Refresh (2)** occasionally and wait until all three machines have a **Protected (3)** status, which shows the initial replication is complete. This will take 5-10 minutes.
+11. Select **Replicating Machines (1)** under **Manage** on the left.  Select **Refresh (2)** occasionally and wait until both two machines have a **Protected (2)** status, which shows the initial replication is complete. This will take 5-10 minutes.
 
-     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 3 servers.](Images/upd-replicate-9.png "Replication status")
+     ![Screenshot of the 'Azure Migrate: Server Migration - Replicating machines' blade showing the replication status as 'Protected' for all 2 servers.](Images/UPdate_Replication_Status_chcek.png "Replication status")
 
    > **Note**: Please make sure you run the **validation steps** for this task before moving to next tasks as there are few dependencies. **Not** running the validation after performing this task will result in **validation failure** as the status of the Virtual Machine will be changed from **Protected** to **Planned failover** when you migrate the servers in Task5.
 
@@ -186,9 +186,9 @@ In this task you enabled replication from the Hyper-V host to Azure Migrate and 
 
 In this task you will modify the settings for each replicated VM to use a static private IP address that matches the on-premises IP addresses for that machine.
 
-1. Still using the **Migration and modernization - Replicating machines** blade, select the **smarthotelweb1** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
+1. Still using the **Migration and modernization - Replicating machines** blade, select the **WindowsServer** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
-    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/upd-config-0.png "Replicating machines")
+    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/UPdate_Replication_Status_chcek1.png "Replicating machines")
 
 2. Select **Compute and Network (1)** under **General** on the left, then select **Edit (2)**.
 
@@ -204,13 +204,12 @@ In this task you will modify the settings for each replicated VM to use a static
 
     ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/upd-private-ip.png "Network interface - static private IP address")
 
-6. Select **OK** to close the network interface settings blade, then **Save** the **smarthotelweb1** settings.
+6. Select **OK** to close the network interface settings blade, then **Save** the **WindowsServer** settings.
 
 7. Repeat these steps to configure the private IP address for the other VMs.
  
-   - For **smarthotelweb2** use private IP address **192.168.0.5**
-  
-   - For **UbuntuWAF** use private IP address **192.168.0.8**
+   - For **Linux** use private IP address **192.168.0.5**
+
 
 #### Task summary 
 
@@ -221,7 +220,7 @@ In this task you modified the settings for each replicated VM to use a static pr
 
 ### Task 5: Server migration
 
-In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and smarthotelweb2 machines to Azure.
+In this task you will perform a migration of the WindowsServer, redhat machines to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
@@ -231,7 +230,7 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
 
-    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/upd-e3-t6-s2.png "Migrate - VM selection")
+    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/Migrate_Select.png "Migrate - VM selection")
 
    > **Note**: You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
 
@@ -247,7 +246,7 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 
     ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/upd-migrate-5.png "Migration status")
 
-6. Navigate to the **SmartHotelHostRG** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
+6. Navigate to the **MigrateServers** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
 
@@ -256,17 +255,15 @@ In this task you will perform a migration of the UbuntuWAF, smarthotelweb1, and 
 In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
 
 
-### Task 6: Configure the database connection
+### Task 6: Verify Migrated Server
 
-The application tier machine **smarthotelweb2** is configured to connect to the application database running on the **smarthotelsql** machine.
-
-On the migrated VM **smarthotelweb2**, this configuration needs to be updated to use the Azure SQL Database instead.
-
-> **Note**: You do not need to update any configuration files on **smarthotelweb1** or the **UbuntuWAF** VMs, since the migration has preserved the private IP addresses of all virtual machines they connect with.
+Now, to verify the Virtual Machines you migrated. you need to connect to it using bastion service.
 
 1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
 
-2. Click on **smarthotelweb2** VM, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
+2. Click on **virtual machine you want to verify**, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
+
+     ![Screenshot showing the Azure Bastion connection blade.](Images/USe_Azure_Bastion.png "Connect using Bastion")
 
    >**Note**: You may have to wait a few minutes and refresh to have the option to enter the credentials. 
 
@@ -276,150 +273,6 @@ On the migrated VM **smarthotelweb2**, this configuration needs to be updated to
 
       ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
 
-4. In the **smarthotelweb2** remote desktop session, open File Explorer and navigate to the **C:\\inetpub\\SmartHotel.Registration.Wcf** folder. Double-select the **Web.config** file and open with Notepad.
+4. After Successful authentication you will be able to connect to the virtual machine on your browser.
 
-5. Update the **DefaultConnection** setting to connect to your Azure SQL Database.
-
-   You can find the connection string for the Azure SQL Database in the Azure portal. Navigate to the **SmartHotelRG** resource group, and then to the database **smarthoteldb** and from the overview, select **Show database connection strings**.
-
-    ![Screenshot showing the 'Show database connection strings' link for an Azure SQL Database.](Images/upd-show-connection-strings.png "Show database connection strings")
-
-    Copy the **ADO.NET** connection string and paste into the web.config file on **smarthotelweb2**, replacing the existing connection string.  **Be careful not to overwrite the 'providerName' parameter which is specified after the connection string.**
-
-    > **Note**: You may need to open the clipboard panel on the left-hand edge of the Bastion window, paste the connection string there, and then paste into the VM.
-
-    Set the password in the connection string to **<inject key="SmartHotel Admin Password" />**.
-
-    ![Screenshot showing the user ID and Password in the web.config database connection string.](Images/upd-web2-connection-string.png "web.config")
-
-6. **Save** the `web.config` file and exit your Bastion remote desktop session.
-
-#### Task summary 
-
-In this task, you updated the **smarthotelweb2** configuration to connect to the Azure SQL Database.
-
-### Task 7: Configure the public IP address and test the SmartHotel application
-
-In this task, you will associate an Application Gateway with Web Application Firewall (WAF) to replace the Ubuntu VM with the Azure managed service.
-
-1. Navigate to the **SmartHotel-WAF** Application Gateway in the **SmartHotelRG** resource group
-
-1. Select **Backend pools (1)** under the Settings section, and select the **WebBackend (2)** pool
-
-    ![Screenshot showing the backend pool selection for the Application Gateway](Images/upd-waf-backend-pool.png "Select WebBackend")
-
-1. Set the Target type to **Virtual machine (1)** and the Target to the NIC of **smarthotelweb1 (2)**; select **Save (3)** to update the backend pool
-
-    ![Screenshot showing virtual machine add to the backend pool of Application Gateway](Images/backendpool-01.png "Add VM to backend pool")
-
-    > **Note**: This backend pool is already associated with the front-end IP address of the Application Gateway via the SmartHotelApp rule. The front-end IP, listener, rule, and backend pool were all created with the Application Gateway. This step now ties the migrated VM to the front end.
-
-1. Navigate to the **SmartHotelRG** resource group, and then to the **SmartHoteldb<inject key="DeploymentID" enableCopy="false" />** database server to update the Firewall settings.
-           
-1. Under Security, select **Networking (1)** then **Public access (2)** tab. Now, set **Public network access** to **Selected networks (3)** and **Save (4)** your changes.
-
-    ![](Images/website1.1.png)
-     
-1. Now, on the **Public access** tab, click on **Add a virtual network rule** to add a virtual network so that the access to the database will be allowed from specific network.
-
-    ![](Images/website2.1.png)
-   
-1. On the **Create/Update** blade, enter the below information.
-
-    - **Name**: **AllowaccesstoDB (1)**.
-    - **Subscription**: Select your subscription from the dropdown **(2)**.
-    - **Virtual Network**: Select **SmartHotelVNet (3)**. 
-    - **Subnet**: Select **SmartHotel (4)**.
-    - **Check** the **Ignore Missing Microsoft.sql Service Endpoint box (5)**.
-    - Click **Ok (6)**.
-
-    ![](Images/upd-e3-t7-s7.png)
-   
-1. Navigate back to the **Public access (2)** tab of **Networking (1)** section. Set **Public network access** to **Disabled (3)** and **Save (4)** your changes.
-
-    ![](Images/deny-firewalls-sqlserver1.png)
-   
-1. Navigate back to the **SmartHotel-WAF** Application Gateway then **Frontend IP configurations (1)** way in the Settings section and note the IP address associated with the public IP address **appGwPublicFrontendIp (2)**.
-
-    ![Screenshot showing public IP address of the Application Gateway that is now associated with the backend VM.](Images/upd-waf-public-ip-address.png "Public IP address of AppGW")
-
-1. Open a new browser tab and paste the IP address into the address bar. Verify that the SmartHotel360 application is now available in Azure.
-
-    ![Screenshot showing the SmartHotel application.](Images/lob-issue-02.png "Migrated SmartHotel application")
- 
-    > **Note**: 
-      1. The Check-in and Check-out might differ for you when compared to the above screenshot.
-      2. At this point the base Application Gateway service is providing access to the backend application. This validates that the application is working and can be further protected by the WAF in following steps.
-
-#### Task summary 
-
-In this task, you assigned a public IP address to the UbuntuWAF VM and verified that the SmartHotel application is now working in Azure.
-
-### Task 8: Pointers around Azure Networking and Azure Network Security (Read only)
-
-Design and implementation of Azure networking is one of the most critical steps in migrating your infrastructure as a service (IaaS) and platform as a service (PaaS) implementations in Azure.
-
-
-#### Azure Networking Best Practises:
-
-- Assign an address space that is not larger than a CIDR range of /16 for each virtual network. Virtual networks allow for the use of 65,536 IP addresses. Assigning a smaller prefix than /16, such as a /15, which has 131,072 addresses, will result in the excess IP addresses becoming unusable elsewhere. It is important not to waste IP addresses, even if they're in the private ranges defined by RFC 1918.
-
-- The hub is an Azure virtual network that acts as a central point of connectivity. The spokes are virtual networks that connect to the hub virtual network by using peering. Shared services are deployed in the hub, while individual workloads are deployed as spokes.
-
-- To provide isolation within a virtual network, you segment it into one or more subnets, and give a portion of the virtual network's address space to each subnet.
-
-- Azure adds a DNS server by default when you deploy a virtual network. You can use this server to rapidly build virtual networks and deploy resources.
-
-- DNS servers in a virtual network can forward DNS queries to the recursive resolvers in Azure. This forwarding enables you to resolve host names within that virtual network.
-
-- DNS forwarding allows VMs to see both your on-premises resources (via the domain controller) and Azure-provided host names (using the forwarder). You can access the recursive resolvers in Azure by using the virtual IP address 168.63.129.16.
-
-- DNS forwarding also enables DNS resolution between virtual networks and allows on-premises machines to resolve host names provided by Azure.
-
-- A VPN gateway is a specific type of virtual network gateway. It sends encrypted traffic between an Azure virtual network and an on-premises location over the public internet.
-
-- A VPN gateway can also send encrypted traffic between virtual networks in Azure over the Microsoft network. Each virtual network can have only one VPN gateway.
-
-
-#### Azure Network Security Best Practises:
-
-- Azure Site Recovery enables disaster recovery and migration to Azure for on-premises Hyper-V virtual machines, VMware virtual machines, and physical servers. For all on-premises to Azure scenarios, replication data is sent to and stored in an Azure Storage account.
-
-- Once VMs have been created after failover to Azure, NSGs can be used to limit network traffic to the virtual network and VMs. Site Recovery does not create NSGs as part of the failover operation.
-
-- We can create the required Azure NSGs before initiating failover. You can then associate NSGs to failed over VMs automatically during failover, using automation scripts with Site Recovery's powerful recovery plans.
-
-- Once the NSGs are created and configured, we can run a test failover to verify scripted NSG associations and post-failover VM connectivity.
-
-
-### Task 9:  Migrating VMware VMs to Azure (Read only)
-
-Azure Migrate is a free tool from Microsoft that allows VMware administrators to replicate their VMs from on-prem to Azure. It is an extremely powerful tool that even allows for pre-migration tests to run.
-
-Azure Migrate has two migrations options:
-
-- Migration with an agent for replication, requires an agent to be installed on each VM that is to be migrated.
-- Migration using agentless replication, requires an agentless format which requires no agent.
-
-**Discovery/Assessment**:
-
- Discover up to 10,000 VMware VMs with a single Azure Migrate appliance for VMware. The appliance supports adding multiple vCenter Servers. You can add up to 10 vCenter Servers per appliance.
- 
-
-#### Agentless migration: 
-
-- Agentless migration uses the Azure Migrate appliance. You can deploy the appliance as a VMware VM using an OVA template, imported into vCenter Server, or using a PowerShell script.
-
-- you can simultaneously replicate a maximum of 500 VMs across multiple vCenter Servers (discovered from one appliance) using a scale-out appliance.
-
-- If you are interested in learning more about the Agentless migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware).
-
-#### Agent-based migration: 
-
-- Agent-based migration does not use the Azure Migrate appliance. If you've set up an appliance for assessment, you can leave it in place, or remove it if you're done with assessment.
-
-- you can scale out the replication appliance to replicate large numbers of VMs.
-
-- If you are interested in learning more about the Agent-based migration, you can [read more here](https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware-agent).
-
-In the portal, you can select up to 10 machines at once for replication. To replicate more machines, add in batches of 10.
+      ![Screenshot showing the Azure Bastion connection blade.](Images/Use_Bastion_browser_done.png "Connect using Bastion")
