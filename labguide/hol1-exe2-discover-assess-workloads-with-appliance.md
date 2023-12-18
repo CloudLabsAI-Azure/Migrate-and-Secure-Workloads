@@ -217,7 +217,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 
 32. Return to the Azure Portal and refresh the Azure Migrate **Hyper-V VMs** VM group blade. The 2 VMs on which the dependency agent was installed should now show their status as **Installed**. (If not, refresh the page **using the browser refresh button**, not the refresh button in the blade.  It may take up to **5 minutes** after installation for the status to be updated.)
 
-    ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/upd-dependency-viz-installed.png "Dependency agent installed")
+    ![Screenshot showing the dependency agent installed on each VM in the Azure Migrate VM group.](Images/hol1-exe2-task2-step32-dependency-agent-status.png "Dependency agent installed")
    
      >**Note**: If you notice that the dependency agent status is showing as **Requires Agent Installation** instead of Installed even after installing dependency agents in all the three VMs, please follow the steps from [here](https://github.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/blob/main/labguide/HelpDoc-AzureMigrate.md) to confirm dependency agent installation in VMs using Log Analytics workspace.
  
