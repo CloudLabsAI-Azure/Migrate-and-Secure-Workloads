@@ -188,7 +188,7 @@ In this task you will modify the settings for each replicated VM to use a static
 
 1. Still using the **Migration and modernization - Replicating machines** blade, select the **WindowsServer** virtual machine. This opens a detailed migration and replication blade for this machine. Take a moment to study this information.
 
-    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/UPdate_Replication_Status_chcek1.png "Replicating machines")
+    ![Screenshot from the 'Azure Migrate: Server Migration - Replicating machines' blade with the smarthotelweb1 machine highlighted.](Images/MIgration_Protected_Replication_Windows.png "Replicating machines")
 
 2. Select **Compute and Network (1)** under **General** on the left, then select **Edit (2)**.
 
