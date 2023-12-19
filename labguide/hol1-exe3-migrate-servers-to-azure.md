@@ -271,7 +271,7 @@ Now, to verify the Virtual Machines you migrated. you need to connect to it usin
 
     >**Note**: You might have to allow pop-ups in order to access the bastion session.
 
-      ![Screenshot showing the Azure Bastion connection blade.](Images/upd-web2-connect.png "Connect using Bastion")
+      ![Screenshot showing the Azure Bastion connection blade.](Images/try_connection_page_bastion.png "Connect using Bastion")
 
 4. After Successful authentication you will be able to connect to the virtual machine on your browser.
 
