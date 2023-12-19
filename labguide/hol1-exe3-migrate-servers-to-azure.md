@@ -198,11 +198,11 @@ In this task you will modify the settings for each replicated VM to use a static
 
 4. Under **Network Interfaces**, select **InternalNATSwitch** to open the network interface settings.
 
-    ![Screenshot showing the link to edit the network interface settings for a replicated VM.](Images/upd-nic.png "Network Interface settings link")
+    ![Screenshot showing the link to edit the network interface settings for a replicated VM.](Images/Compute_pane_NAT_EDIT.png "Network Interface settings link")
 
 5. Change the **Private IP address** to **192.168.0.4**
 
-    ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/upd-private-ip.png "Network interface - static private IP address")
+    ![Screenshot showing a private IP address being configured for a replicated VM in ASR.](Images/Compute_Pane_NAT_Update_Edit.png "Network interface - static private IP address")
 
 6. Select **OK** to close the network interface settings blade, then **Save** the **WindowsServer** settings.
 
