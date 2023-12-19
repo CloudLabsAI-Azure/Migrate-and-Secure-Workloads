@@ -244,7 +244,7 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 
 5. **Wait** until all three **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/upd-migrate-5.png "Migration status")
+    ![Screenshot showing the **Jobs* link and a jobs list with all 'Planned failover' jobs successful.](Images/replicationi_job_successful.png "Migration status")
 
 6. Navigate to the **MigrateServers** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
