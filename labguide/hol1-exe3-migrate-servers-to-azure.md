@@ -248,7 +248,7 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 
 6. Navigate to the **MigrateServers** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
-    ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/upd-migrate-6.png "Migrated resources")
+    ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/migraste_RG_check.png "Migrated resources")
 
 #### Task summary 
 
