@@ -230,7 +230,7 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 
 2. On the **Migrate** blade, select **yes (1)** for **Shutdown machines before migration to minimum data loss** and select the 3 virtual machines **(2)** then select **Migrate (3)** to start the migration process.
 
-    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/Migrate_Select.png "Migrate - VM selection")
+    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/Ccompute_migrate_select_click.png "Migrate - VM selection")
 
    > **Note**: You can optionally choose whether the on-premises virtual machines should be automatically shut down before migration to minimize data loss. Either setting will work for this lab.
 
