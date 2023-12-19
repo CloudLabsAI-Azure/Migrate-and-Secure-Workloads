@@ -159,7 +159,7 @@ In this task, you will configure and enable the replication of your on-premises 
    - Select the **Linux** operating system for the **UbuntuWAF** virtual machine. 
    - Select **Next**. 
 
-   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/Update_Replication.png "Replicate - Compute")
+   ![Screenshot of the 'Compute' tab of the 'Replicate' wizard in Azure Migrate Server Migration. Each VM is configured to use a Standard_F2s_v2 SKU, and has the OS Type specified.](Images/Selecting_replication_os_details.png "Replicate - Compute")
     
 
 8. In the **Disks** tab, review the settings but do not make any changes. Select **Next: Tags**, then select **Replicate** to start the server replication.
