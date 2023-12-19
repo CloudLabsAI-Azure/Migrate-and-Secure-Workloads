@@ -192,7 +192,7 @@ In this task you will modify the settings for each replicated VM to use a static
 
 2. Select **Compute and Network (1)** under **General** on the left, then select **Edit (2)**.
 
-    ![Screenshot of the smarthotelweb1 blade with the 'Compute and Network' and 'Edit' links highlighted.](Images/upd-config-1.png "Edit Compute and Network settings")
+    ![Screenshot of the smarthotelweb1 blade with the 'Compute and Network' and 'Edit' links highlighted.](Images/Compute_Pane_edit_1.png "Edit Compute and Network settings")
 
 3. Confirm that the VM is configured to use the **F2s_v2** VM size.
 
