@@ -61,7 +61,7 @@ In this task, you will register your Hyper-V host(LabVM) with the Migration and 
    - Under **Target region (2)** make sure to select the **<inject key="Region"></inject>** region as same the Resource Group's region.
    - Check the **confirmation (3)** checkbox and select **Create resources (4)** to begin the deployment of the Azure Site Recovery resource used by Migration and modernization for Hyper-V migrations.
 
-     ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/upd-discover-new1.png "Discover machines - source hypervisor and target region")
+     ![Screenshot of the Azure portal showing the 'Discover machines' panel from Azure Migrate.](Images/Create_Discover_Resources.png "Discover machines - source hypervisor and target region")
 
    Once deployment is complete, the 'Discover machines' panel should be updated with additional instructions.
   
