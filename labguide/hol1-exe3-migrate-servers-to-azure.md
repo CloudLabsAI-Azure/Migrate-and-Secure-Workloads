@@ -166,7 +166,7 @@ In this task, you will configure and enable the replication of your on-premises 
 
 9. In the **Azure Migrate - Servers, databases and web apps** blade, under **Migration and modernization**, select the **Overview** button.
 
-     ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/newoverviewreplication.png "Overview link")
+     ![Screenshot of the 'Azure Migrate - Servers' blade with the 'Overview' button in the 'Azure Migrate: Server Migration' panel highlighted.](Images/Migration_Overview_page.png "Overview link")
     
 10. Confirm that the 2 machines are replicating.
 
