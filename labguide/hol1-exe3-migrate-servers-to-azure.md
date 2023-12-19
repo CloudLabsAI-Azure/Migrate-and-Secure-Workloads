@@ -236,11 +236,11 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 
 3. The migration process will start.
 
-    ![Screenshot showing 3 VM migration notifications.](Images/upd-migrate-3.png "Migration started notifications")
+    ![Screenshot showing 3 VM migration notifications.](Images/replication_notification.png "Migration started notifications")
 
 4. To monitor progress, select **Jobs (1)** under **Manage** on the left and review the status of the three **Planned failover (2)** jobs.
 
-    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/upd-migrate-4.png "Migration jobs")
+    ![Screenshot showing the **Jobs* link and a jobs list with 3 in-progress 'Planned failover' jobs.](Images/replication_status_inporegess.png "Migration jobs")
 
 5. **Wait** until all three **Planned failover** jobs show a **Status** of **Successful**. You should not need to refresh your browser. This could take up to 15 minutes.
 
