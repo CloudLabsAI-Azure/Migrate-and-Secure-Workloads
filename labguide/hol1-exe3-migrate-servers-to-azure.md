@@ -276,3 +276,8 @@ Now, to verify the Virtual Machines you migrated. you need to connect to it usin
 4. After Successful authentication you will be able to connect to the virtual machine on your browser.
 
       ![Screenshot showing the Azure Bastion connection blade.](Images/Use_Bastion_browser_done.png "Connect using Bastion")
+
+
+#### Task summary 
+
+In this exercise you configured an Azure Migrate migration replication server and configured the Azure Storage account for storing the metadata of the servers while replication and migration. and connect using bastion service to verify the migrated servers.
