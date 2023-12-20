@@ -10,7 +10,7 @@ Azure Migrate provides a centralized hub to assess and migrate on-premises serve
    
 1. On the **Default apps** Blade, click on **Internet Explorer** and select **Microsoft Edge** for setting Microsoft Edge as the default browser.
 
-   ![Edge as default browser](Images/Defaultapps.png "Set Edge as Default Browser")
+   ![Edge as default browser](Images/Defaultappsss.png "Set Edge as Default Browser")
    
 1. Open the **Azure portal** from the shortcut and log in to Azure. When prompted, use the below credentials to complete the login process.
 
