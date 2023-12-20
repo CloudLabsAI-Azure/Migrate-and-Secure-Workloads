@@ -19,9 +19,9 @@ Azure Migrate provides a centralized hub to assess and migrate on-premises serve
 
     ![Azure Portal shorcut](Images/azure-portal-start.png "Azure Portal shortcut")
 
-1. Once your project is created, **Azure Migrate** will show you default **Web App Assessment (1)** and **Web App Migration (2)** tools (You might need to refresh your browser). For the Parts Unlimited website, **App Service Migration Assistant** is the one we need to use. Download links are present on Azure Migrate's Web Apps page. In our case, our lab environment comes with App Service Migration Assistant pre-installed on Parts Unlimited's web server.
+1. Search for Azure Migrate, **Azure Migrate** will show you default **Assessment Tools (1)** and **Migration Tools (2)** (You might need to refresh your browser). For the Parts Unlimited website, **App Service Migration Assistant** is the one we need to use. Download links are present on Azure Migrate's Web Apps page. In our case, our lab environment comes with App Service Migration Assistant pre-installed on Parts Unlimited's web server.
 
-    ![Azure Migrate Web App assessment and migration tools are presented.](media/azure-migrate-web-app-3.png "Azure Migrate Web Apps Capabilities")
+    ![Azure Migrate Web App assessment and migration tools are presented.](media/Azure_App_Migration_Search.png "Azure Migrate Web Apps Capabilities")
 
 1. Another aspect of our migration project will be the database for Parts Unlimited's web site. We will have to assess the database's compatibility and migrate to Azure SQL Database. Let's switch to the **Databases (only) (1)** section in Azure Migrate. Select **Click here (2)** hyperlink for Assessment tools.
 
