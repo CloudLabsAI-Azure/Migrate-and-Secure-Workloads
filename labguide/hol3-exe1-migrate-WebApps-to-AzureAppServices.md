@@ -39,7 +39,7 @@ In this lab, we have provisioned a web application called **Parts Unlimited**. I
    
    ![](media/Click_on_Connect.png)
    
-9. Once connected, expand the **Databases**, and observe that the database is hosting the **Parts Unlimited** web application.
+9. Once connected, expand the **Databases**, and observe that the database is present **Parts Unlimited** which helps in hoisting the web application.
    
    ![](media/SSMS2.png)
    
