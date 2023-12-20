@@ -19,34 +19,6 @@ Azure Migrate provides a centralized hub to assess and migrate on-premises serve
 
     ![Azure Portal shorcut](Images/azure-portal-start.png "Azure Portal shortcut")
 
-1. Select your **resource group**. 
-
-    ![Select your resource group.](media/resource-group-1.png "Resource Group")
-
-1. Select **Create** inside the resource group to add a new resource.
-    
-    ![Lab resource group is open. Resource Add button is highlighted.](media/portal-add-resource-1.png "Lab Resource Group")
-
-1. Type **Azure Migrate (1)** into the search box and select **Azure Migrate (2)** from the dropdown.
-
-    ![Azure Portal new resource page is open. Search box is filled with Azure Migrate.](media/az-migrate.png "Marketplace Search for Azure Migrate")
-
-1. Select **Create** to continue.
-
-    ![Azure Migrate resource creation screen is open. Create button is highlighted.](media/App-Mod-azure-migrate.png "Creating Azure Migrate")
-
-1. As part of our migration project for Parts Unlimited, we will first assess and migrate their Web Application living on IIS, on a VM. Select **Web Apps** to continue.
-
-    ![Azure Migrate is open. Web Apps section is highlighted.](media/azure-migrate-web-app-1.png "Azure Migrate Web Apps")
-
-1. Select **Create project**. You may have to scroll down to see Create project option.
-
-    ![Azure Migrate is open. Web Apps section is selected. Create project button is highlighted.](media/azure-migrate-web-app-2.png "Azure Migrate Create project")
-
-1. Type **partsunlimitedweb<inject key="DeploymentID" enableCopy="false"/>**  as your project name. Select **Create** to continue. 
-
-    ![Azure Migrate project settings page is shown. Project name is set to partsunlimitedweb. Create button is highlighted.](media/azure-migrate-create-project-settings.png "Azure Migrate Project Creation")
-
 1. Once your project is created, **Azure Migrate** will show you default **Web App Assessment (1)** and **Web App Migration (2)** tools (You might need to refresh your browser). For the Parts Unlimited website, **App Service Migration Assistant** is the one we need to use. Download links are present on Azure Migrate's Web Apps page. In our case, our lab environment comes with App Service Migration Assistant pre-installed on Parts Unlimited's web server.
 
     ![Azure Migrate Web App assessment and migration tools are presented.](media/azure-migrate-web-app-3.png "Azure Migrate Web Apps Capabilities")
