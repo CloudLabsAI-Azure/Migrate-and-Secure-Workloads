@@ -23,7 +23,7 @@ Azure Migrate provides a centralized hub to assess and migrate on-premises serve
 
    ![Azure Migrate Web App assessment and migration tools are presented.](Images/App_assiatant_image_machine_installed.png "Azure Migrate Web Apps Capabilities")
 
-1. Goto Azure Portal search for azure migrate, add the tools for assessment and migration via clicking on hyperlinks.
+1. Go to Azure Portal search for azure migrate, add the tools for assessment and migration via clicking on hyperlinks.
    
     ![Azure Migrate Web App assessment and migration tools are presented.](Images/Azure_App_Migration_Search.png "Azure Migrate Web Apps Capabilities")
 
@@ -36,17 +36,24 @@ Azure Migrate provides a centralized hub to assess and migrate on-premises serve
 
 ![Azure Migrate Web App assessment and migration tools are presented.](Images/After_adding_the_tools.png "Azure Migrate Web Apps Capabilities")  
 
-1. We will use **Azure Migrate: Database Assessment** to assess Parts Unlimited's database hosted on a SQL Server 2008 R2 server. Pick **Azure Migrate: Database Assessment (1)** and select **Add tool (2)**.
+1. We will use **Azure App Service Migration Assistant** installed on the **WebVM** to do an assessment of the website.
 
-    ![Azure Migrate Database Assessment option is selected for Azure Migrate tools. Add tool button is highlighted.](media/updated25.png "Azure Migrate Database Assessment Tools")
+    ![Azure Migrate Web App assessment and migration tools are presented.](Images/App_assiatant_image_machine_installed.png "Azure Migrate Web Apps Capabilities")
+
+1. Please open the app service migration assistant and select the webiste named **Default Web site** to perform the assessment and click on **Next**.
+
+    ![Azure Migrate Database Assessment option is selected for Azure Migrate tools. Add tool button is highlighted.](Images/Doing_Assessment_of_webiste_chosse.png "Azure Migrate Database Assessment Tools")
 
 
-1. Under the Azure Migrate umbrella, we now have all of the necessary assessment and migration tools ready for Parts Unlimited.
+1. We are done with the assessment of the website, the assessment reports will show the compatibility of as success, error and warning for the website to migrate to azure app service.
 
-    ![Azure Migrate databases section is open. Azure Migrate Database Assessment and Database Migration tools are presented.](media/azure-migrate-web-app-6.png "Azure Migrate Database Migration and Assessment Tools")
+    ![Azure Migrate Database Assessment option is selected for Azure Migrate tools. Add tool button is highlighted.](Images/assessment_done_will_cehck_afterwards.png "Azure Migrate Database Assessment Tools")
+
+
+1. Under the Azure Migrate umbrella, we now have all of the necessary assessment and migration tools ready for **Parts Unlimited** website to migrate to azure app services and in the next excercise you will learn on how to migrate the **Parts Unlimited** to App Services. .
+
     
-
 ## Summary
  
-In this exercise, you have set up Azure Migrate to assess and migrate on-premises servers, infrastructure, applications, and data to Azure.
+In this exercise, you have completed assessment of Website based on IIS to migrate to azure app services.
 
