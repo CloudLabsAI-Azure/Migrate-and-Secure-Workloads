@@ -129,52 +129,52 @@ After you have reviewed the assessment results and you have ensured the database
 
 2. In the New project dialog, enter the following:
 
-   - **Project type (1)**: Select Migration.
-   - **Project name (2)**: Enter **Migration**
+   - **Project type**: Select Migration.
+   - **Project name**: Enter **Migration**
    - **Source server type**: Select SQL Server.
    - **Target server type**: Select Azure SQL Database.
-   - **Migration scope (3)**: Select Schema only.
-   - Select **Create (4)**.
+   - **Migration scope**: Select Schema only.
+   - Select **Create**.
 
-   ![The above information is entered in the New project dialog box.](media/updated46.png "New Project dialog")
+   ![The above information is entered in the New project dialog box.](Images/updated46.png "New Project dialog")
 
 3. On the **Select source** tab, enter the following:
 
-   - **Server name (1)**: Enter **SQLSERVER2008**.
-   - **Authentication type (2)**: Select **SQL Server Authentication**.
-   - **Username (3)**: Enter **PUWebSite**
-   - **Password (4)**: Enter **<inject key="SQLVM Password" />**
+   - **Server name**: Enter **SQLSERVER2008**.
+   - **Authentication type**: Select **SQL Server Authentication**.
+   - **Username**: Enter **PUWebSite**
+   - **Password**: Enter **<inject key="SQLVM Password" />**
    - **Encrypt connection**: Check this box.
-   - **Trust server certificate (5)**: Check this box.
-   - Select **Connect (6)**, and then ensure the `PartsUnlimited` database is selected **(7)** from the list of databases.
-   - Select **Next (8)**.
+   - **Trust server certificate**: Check this box.
+   - Select **Connect**, and then ensure the `PartsUnlimited` database is selected from the list of databases.
+   - Select **Next**.
 
-   ![The Select source tab of the Data Migration Assistant is displayed, with the values specified above entered into the appropriate fields.](media/updated47.png "Data Migration Assistant Select source")
+   ![The Select source tab of the Data Migration Assistant is displayed, with the values specified above entered into the appropriate fields.](Images/updated47.png "Data Migration Assistant Select source")
 
 4. On the **Select target** tab, enter the following:
 
-   - **Server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net** 
-   - **Authentication type (2)**: Select SQL Server Authentication.
-   - **Username (3)**: Enter **demouser**
-   - **Password (4)**: Enter **<inject key="SQLVM Password" />**
+   - **Server name**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net** 
+   - **Authentication type**: Select SQL Server Authentication.
+   - **Username**: Enter **demouser**
+   - **Password**: Enter **<inject key="SQLVM Password" />**
    - **Encrypt connection**: Check this box.
-   - **Trust server certificate (5)**: Check this box.
-   - Select **Connect (6)**, and then ensure the `parts` database is selected **(7)** from the list of databases.
-   - Select **Next (8)**.
+   - **Trust server certificate**: Check this box.
+   - Select **Connect**, and then ensure the `parts` database is selected from the list of databases.
+   - Select **Next**.
 
-   ![The Select target tab of the Data Migration Assistant is displayed, with the values specified above entered into the appropriate fields.](media/data-migration-assistant-migration-select-target.png "Data Migration Assistant Select target")
+   ![The Select target tab of the Data Migration Assistant is displayed, with the values specified above entered into the appropriate fields.](Images/Migratino_checllist_signinto_targetr.png "Data Migration Assistant Select target")
 
-5. On the **Select objects** tab, leave all the objects checked **(1)**, and select **Generate SQL script (2)**.
+5. On the **Select objects** tab, leave all the objects checked, and select **Generate SQL script**.
 
-    ![The Select objects tab of the Data Migration Assistant is displayed, with all the objects checked.](media/data-migration-assistant-migration-select-objects.png "Data Migration Assistant Select target")
+    ![The Select objects tab of the Data Migration Assistant is displayed, with all the objects checked.](Images/data-migration-assistant-migration-select-objects.png "Data Migration Assistant Select target")
 
-6. On the **Script & deploy schema** tab, review the script. Notice the view also provides a note that there are no blocking issues **(1)**. Now, select **Deploy schema (2)**.
+6. On the **Script & deploy schema** tab, review the script. Now, select **Deploy schema**.
 
-    ![The Script & deploy schema tab of the Data Migration Assistant is displayed, with the generated script shown.](media/data-migration-assistant-migration-script-and-deploy-schema.png "Data Migration Assistant Script & deploy schema")
+    ![The Script & deploy schema tab of the Data Migration Assistant is displayed, with the generated script shown.](Images/data-migration-assistant-migration-script-and-deploy-schema.png "Data Migration Assistant Script & deploy schema")
 
 7. After the schema is deployed, review the deployment results, and ensure there are no errors.
 
-    ![The schema deployment results are displayed, with 23 commands executed and 0 errors highlighted.](media/updated48.png "Schema deployment results")
+    ![The schema deployment results are displayed, with 23 commands executed and 0 errors highlighted.](Images/updated48.png "Schema deployment results")
 
 8. Launch SQL Server Management Studio (SSMS) from the Windows Start menu by typing "sql server management" **(1)** into the search bar, and then selecting **SQL Server Management Studio 17 (2)** in the search results.
 
