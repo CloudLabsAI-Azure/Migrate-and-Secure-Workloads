@@ -39,34 +39,34 @@ Parts Unlimited would like an assessment to see what potential issues they might
 
 2. In the DMA dialog, select **+** from the left-hand menu to create a new project.
 
-   ![The new project icon is highlighted in DMA.](media/updated38.png "New DMA project")
+   ![The new project icon is highlighted in DMA.](Images/updated38.png "New DMA project")
 
-3. In the New Project pane, set the name of the project **(1)** and make sure the following values are selected:
+3. In the New Project pane, set the name of the **project** and make sure the following values are selected:
 
    - **Project type**: Select Assessment.
-   - **Project name (1)**: Enter **Assessment**
+   - **Project name**: Enter **Assessment**
    - **Assessment type**: Select Database Engine.
    - **Source server type**: Select SQL Server.
    - **Target server type**: Select Azure SQL Database.
-   - Select **Create (2)**.
+   - Select **Create**.
 
-   ![New project settings for doing an assessment of a migration from SQL Server to Azure SQL Database.](media/updated39.png "New project settings")
+   ![New project settings for doing an assessment of a migration from SQL Server to Azure SQL Database.](Images/updated39.png "New project settings")
 
-4. On the **Options** screen, ensure **Check database compatibility (1)** and **Check feature parity (1)** are both checked, and then select **Next (2)**.
+4. On the **Options** screen, ensure **Check database compatibility** and **Check feature parity** are both checked, and then select **Next**.
 
-   ![Check database compatibility and check feature parity are checked on the Options screen.](media/appmod-EX3s4.png "DMA options")
+   ![Check database compatibility and check feature parity are checked on the Options screen.](Images/appmod-EX3s4.png "DMA options")
 
 5. On the **Sources** screen, enter the following into the **Connect to a server** dialog that appears on the right-hand side:
 
-    - **Server name (1)**: Enter **SQLSERVER2008**
-    - **Authentication type (2)**: Select **SQL Server Authentication**.
-    - **Username (3)**: Enter **PUWebSite**
-    - **Password (4)**: Enter **<inject key="SQLVM Password" />**
+    - **Server name**: Enter **SQLSERVER2008**
+    - **Authentication type**: Select **SQL Server Authentication**.
+    - **Username**: Enter **PUWebSite**
+    - **Password**: Enter **<inject key="SQLVM Password" />**
     - **Encrypt connection**: Check this box if not checked.
-    - **Trust server certificate (5)**: Check this box.
-    - Select **Connect (6)**.
+    - **Trust server certificate**: Check this box.
+    - Select **Connect**.
 
-    ![In the Connect to a server dialog, the values specified above are entered into the appropriate fields.](media/updated40.png "Connect to a server")
+    ![In the Connect to a server dialog, the values specified above are entered into the appropriate fields.](Images/updated40.png "Connect to a server")
 
 6. In the **Add sources** dialog that appears next, check the box for `PartsUnlimited` **(1)** and select **Add (2)**.
 
