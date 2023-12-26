@@ -203,7 +203,7 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
 > The [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) integrates some of the functionality of Microsoft's existing tools and services to provide customers with a comprehensive, highly available database migration solution. The service uses the Data Migration Assistant to generate assessment reports that provide recommendations to guide you through the changes required prior to performing a migration. When you're ready to begin the migration process, Azure Database Migration Service performs all of the required steps.
 
-1. In the [Azure portal](https://portal.azure.com), navigate to your DMS (Data Migration Service) by searching on Azure Database Migration Service.
+1. In the [Azure portal](https://portal.azure.com), navigate to your DMS (Data Migration Service) by searching Azure Database Migration Service on azure search.
 
    ![The contoso-dms Azure Database Migration Service is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](Images/searchingon_azure_database_azure.png "Resources")
 
@@ -212,13 +212,12 @@ At this point, you have migrated the database schema using DMA. In this task, yo
    ![On the Azure Database Migration Service blade, +New Migration Project is highlighted in the toolbar.](Images/Search_Azure_Database_Migration_Assistant.png "Azure Database Migration Service New Project")
 
 
-
 3. On the New create Blade, enter the following:
 
    - **Source server type**: Select SQL Server.
    - **Target server type**: Select Azure SQL Database.
    - **Database Migration Service**: Select **Database Migration Service**
-   - Select **Create and run activity**.
+   - Select **Select**.
 
    ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
 
