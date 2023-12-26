@@ -70,25 +70,25 @@ Parts Unlimited would like an assessment to see what potential issues they might
 
 6. In the **Add sources** dialog that appears next, check the box for `PartsUnlimited` **(1)** and select **Add (2)**.
 
-    ![The PartsUnlimited box is checked on the Add sources dialog.](media/updated41.png "Add sources")
+    ![The PartsUnlimited box is checked on the Add sources dialog.](Images/updated41.png "Add sources")
 
 7. Select **Start Assessment**.
 
-    ![Start assessment](media/dma-start-assessment-to-azure-sql-db.png "Start assessment")
+    ![Start assessment](Images/dma-start-assessment-to-azure-sql-db.png "Start assessment")
 
 8. Take a moment to review the assessment for migrating to Azure SQL DB. The SQL Server feature parity report shows that Analysis Services and SQL Server Reporting Services are unsupported, but these do not affect any objects in the `PartsUnlimited` database, so we won't block a migration. If there is no SQL Server feature parity, then proceed to the next step.
 
-    ![The feature parity report is displayed, and the two unsupported features are highlighted.](media/app-mod-new.png "Feature parity")
+    ![The feature parity report is displayed, and the two unsupported features are highlighted.](Images/app-mod-new.png "Feature parity")
 
 9. Now, select **Compatibility issues (1)** to review that report as well.
 
-    ![The Compatibility issues option is selected and highlighted.](media/updated42.png "Compatibility issues")
+    ![The Compatibility issues option is selected and highlighted.](Images/updated42.png "Compatibility issues")
 
     The DMA assessment for migrating the `PartsUnlimited` database to a target platform of Azure SQL DB reveals that no issues or features are preventing Parts Unlimited from migrating their database to Azure SQL DB.
 
 10. Select **Upload to Azure Migrate** to upload assessment results to Azure.
 
-    ![Upload to Azure Migrate button is highlighted.](media/dma-upload-azure-migrate.png "Azure Migrate Upload")
+    ![Upload to Azure Migrate button is highlighted.](Images/dma-upload-azure-migrate.png "Azure Migrate Upload")
 
 11. Select the right Azure environment **(1)** your subscription lives. Select **Connect (2)** to proceed to the Azure login screen. Please use the  below credentials to login.
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
