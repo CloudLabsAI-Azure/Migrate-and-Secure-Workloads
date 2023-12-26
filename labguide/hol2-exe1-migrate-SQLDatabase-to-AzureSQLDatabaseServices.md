@@ -113,13 +113,13 @@ Parts Unlimited would like an assessment to see what potential issues they might
 
 In this task, you will retrieve the Fully Qualified Domain Name for the Azure SQL Database. This information is needed to connect to the Azure SQL Database from Azure Data Migration Service and Azure Data Migration Assistant.
 
-1. In the [Azure portal](https://portal.azure.com), navigate to your **SQL database** resource by selecting the **parts** SQL database resource from the resources list.
+1. In the [Azure portal](https://portal.azure.com), navigate to your resource group containing the lab resources and **SQL database** resource by selecting the **parts** SQL database resource from the resources list.
 
-   ![The parts SQL database resource is highlighted in the list of resources.](media/updated44.png "SQL database")
+   ![The parts SQL database resource is highlighted in the list of resources.](Images/Click_on_SQl_Database_azure.png "SQL database")
 
 2. On the **Overview** Blade of your SQL database, copy the **Server name** and paste the value into a text editor, such as Notepad.exe, for later reference.
 
-   ![The server name value is highlighted on the SQL database Overview blade.](media/updated45.png "SQL database")
+   ![The server name value is highlighted on the SQL database Overview blade.](Images/Copu_DNS_Name_SQL_Database.png "SQL database")
 
 ## Task 4: Migrate the database schema using the Data Migration Assistant
 
