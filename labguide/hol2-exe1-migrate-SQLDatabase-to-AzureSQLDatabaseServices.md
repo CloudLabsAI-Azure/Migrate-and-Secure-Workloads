@@ -90,28 +90,24 @@ Parts Unlimited would like an assessment to see what potential issues they might
 
     ![Upload to Azure Migrate button is highlighted.](Images/dma-upload-azure-migrate.png "Azure Migrate Upload")
 
-11. Select the right Azure environment **(1)** your subscription lives. Select **Connect (2)** to proceed to the Azure login screen. Please use the  below credentials to login.
+11. Select the right Azure environment your subscription lives. Select **Connect** to proceed to the Azure login screen. Please use the  below credentials to login.
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
     * Password: <inject key="AzureAdUserPassword"></inject>
 
-    ![Azure is selected as the Azure Environment on the connect to Azure screen. Connect button is highlighted.](media/dma-azure-migrate-upload.png "Azure Environment Selection")
+    ![Azure is selected as the Azure Environment on the connect to Azure screen. Connect button is highlighted.](Images/dma-azure-migrate-upload.png "Azure Environment Selection")
 
-12. Select your subscription **(1)** and the `partsunlimited` Azure Migrate project **(2)**. Select **Upload (3)** to start the upload to Azure.
+12. Select your **subscription** and the **partsunlimitedweb-XXXXXX**` Azure Migrate project you created earlier to migrate the server and webapps. Select **Upload** to start the upload to Azure.
 
-    ![Upload to Azure Migrate page is open. Lab subscription and partsunlimited Azure Migrate Project are selected. Upload button is highlighted.](media/dma.png "Azure Migrate upload settings")
-
-    > **Note**: If you encounter **Failed to fetch subscription list from Azure, Strong Authentication is required (1)** you might not see some of your subscription because of MFA limitations. You should still be able to see your lab subscription.
-
-     ![Upload to Azure Migrate page is open. Lab subscription and partsunlimited Azure Migrate Project are selected. Upload button is highlighted.](media/dma-azure-migrate-upload-2.png "Azure Migrate upload settings")
+    ![Upload to Azure Migrate page is open. Lab subscription and partsunlimited Azure Migrate Project are selected. Upload button is highlighted.](Images/dma.png "Azure Migrate upload settings")
 
 
 13. Once the upload is complete, select **OK** and navigate to the Azure Migrate page on the Azure Portal.
 
-    ![Assessment Uploaded dialog shown.](media/updated43.png "Assessment Uploaded")
+    ![Assessment Uploaded dialog shown.](Images/updated43.png "Assessment Uploaded")
 
-14. Select the **Databases (only) (1)** page on Azure Migrate. Observe the number of assessed database instances **(2)** and the number of databases ready for Azure SQL DB **(2)**. Keep in mind that you might need to wait for 5 to 10 minutes for the results to show up. You can use the **Refresh** button on the page to see the latest status.
+14. Select the **Databases (only)** option on Azure Migrate page. Observe the number of assessed database instances and the number of databases ready for **Azure SQL DB**. Keep in mind that you might need to wait for 5 to 10 minutes for the results to show up. You can use the **Refresh** button on the page to see the latest status.
 
-    ![Azure Migrate Databases page is open. The number of assessed database instances and the number of databases ready for Azure SQL DB shows one.](media/dma-azure-migrate-web-2.1.png "Azure Migrate Database Assessment")
+    ![Azure Migrate Databases page is open. The number of assessed database instances and the number of databases ready for Azure SQL DB shows one.](Images/updated_verify_sql_database_above_migrate_project.png "Azure Migrate Database Assessment")
 
 ## Task 3: Retrieve connection information for SQL Databases (Optional)
 
