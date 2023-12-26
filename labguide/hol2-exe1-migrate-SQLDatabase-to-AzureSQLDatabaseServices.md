@@ -176,24 +176,24 @@ After you have reviewed the assessment results and you have ensured the database
 
     ![The schema deployment results are displayed, with 23 commands executed and 0 errors highlighted.](Images/updated48.png "Schema deployment results")
 
-8. Launch SQL Server Management Studio (SSMS) from the Windows Start menu by typing "sql server management" **(1)** into the search bar, and then selecting **SQL Server Management Studio 17 (2)** in the search results.
+8. Launch SQL Server Management Studio (SSMS) from the Windows Start menu by typing "SSMS" into the search bar, and then selecting **SQL Server Management Studio 18** in the search results.
 
-    ![In the Windows Start menu, "sql server management" is entered into the search bar, and SQL Server Management Studio 17 is highlighted in the Windows start menu search results.](media/appmod-dma.png "SQL Server Management Studio 17")
+    ![In the Windows Start menu, "sql server management" is entered into the search bar, and SQL Server Management Studio 17 is highlighted in the Windows start menu search results.](Images/ssms_search_click_open.png "SQL Server Management Studio 17")
 
 9. Connect to your Azure SQL Database, by selecting **Connect->Database Engine** in the Object Explorer, and then enter the following into the Connect to server dialog:
 
-    - **Server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net** 
-    - **Authentication type (2)**: Select SQL Server Authentication.
-    - **Login (3)**: Enter **demouser**
-    - **Password (4)**: Enter **<inject key="SQLVM Password" />**
-    - **Remember password (5)**: Check this box.
-    - Select **Connect (6)**.
+    - **Server name**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net** 
+    - **Authentication type**: Select SQL Server Authentication.
+    - **Login**: Enter **demouser**
+    - **Password**: Enter **<inject key="SQLVM Password" />**
+    - **Remember password**: Check this box.
+    - Select **Connect**.
 
-    ![The SSMS Connect to Server dialog is displayed, with the Azure SQL Database name specified, SQL Server Authentication selected, and the demouser credentials entered.](media/updated49.png "Connect to Server")
+    ![The SSMS Connect to Server dialog is displayed, with the Azure SQL Database name specified, SQL Server Authentication selected, and the demouser credentials entered.](Images/conect_to_azure_sql_using_mysql.png "Connect to Server")
 
-10. Once connected, expand **Databases**, and expand **parts**, then expand **Tables**, and observe the schema that has been created **(1)**. Expand **Security > Users** to observe that the database user is migrated as well **(2)**.
+10. Once connected, expand **Databases**, and expand **parts**, then expand **Tables**, and observe the schema that has been created. Expand **Security > Users** to observe that the database user is migrated as well.
 
-    ![In the SSMS Object Explorer, Databases, parts, and Tables are expanded, showing the tables created by the deploy schema script. Security Users are expanded to show database user PUWebSite is migrated as well.](media/updated50.png "SSMS Object Explorer").
+    ![In the SSMS Object Explorer, Databases, parts, and Tables are expanded, showing the tables created by the deploy schema script. Security Users are expanded to show database user PUWebSite is migrated as well.](Images/Verify_Database_Connecting_.png "SSMS Object Explorer").
 
 > **Note**: You can now disconnect from the **SQLVM** and perform the remaining exercises from the **LabVM**.
 
