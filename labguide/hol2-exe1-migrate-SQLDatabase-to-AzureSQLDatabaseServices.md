@@ -203,25 +203,26 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
 > The [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) integrates some of the functionality of Microsoft's existing tools and services to provide customers with a comprehensive, highly available database migration solution. The service uses the Data Migration Assistant to generate assessment reports that provide recommendations to guide you through the changes required prior to performing a migration. When you're ready to begin the migration process, Azure Database Migration Service performs all of the required steps.
 
-1. In the [Azure portal](https://portal.azure.com), navigate to your Azure Database Migration Service by selecting the **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** resource group, and then selecting the **parts-dms-<inject key="DeploymentID" enableCopy="false"/>** Azure Database Migration Service from the list of resources.
+1. In the [Azure portal](https://portal.azure.com), navigate to your DMS (Data Migration Service) by searching on Azure Database Migration Service.
 
-   ![The contoso-dms Azure Database Migration Service is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](media/updated51.png "Resources")
+   ![The contoso-dms Azure Database Migration Service is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](Images/searchingon_azure_database_azure.png "Resources")
 
-1. On the Azure Database Migration Service Blade, select **+New Migration Project**.
+1. On the Azure Database Migration Service Blade, select **Create**.
 
-   ![On the Azure Database Migration Service blade, +New Migration Project is highlighted in the toolbar.](media/updated52.png "Azure Database Migration Service New Project")
+   ![On the Azure Database Migration Service blade, +New Migration Project is highlighted in the toolbar.](Images/Search_Azure_Database_Migration_Assistant.png "Azure Database Migration Service New Project")
 
-2. On the New migration project Blade, enter the following:
 
-   - **Project name (1)**: Enter **DataMigration**
+
+3. On the New create Blade, enter the following:
+
    - **Source server type**: Select SQL Server.
    - **Target server type**: Select Azure SQL Database.
-   - **Choose type of activity**: Select **Data migration**
-   - Select **Create and run activity (2)**.
+   - **Database Migration Service**: Select **Database Migration Service**
+   - Select **Create and run activity**.
 
-   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](media/updated53.png "New migration project")
+   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
 
-3. On the Migration Wizard **Select source** Blade, enter the following:
+4. On the Migration Wizard **Select source** Blade, enter the following:
 
    - **Source SQL Server instance name (1)**: Enter the SQL DNS name - **<inject key="SQLVM DNS Name" enableCopy="true"/>** 
    - **Authentication type (2)**: Select SQL Authentication.
@@ -232,11 +233,11 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
    ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](media/dms.png "Migration Wizard Select source")
 
-4. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
+5. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
 
     ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](media/updated54.png "Migration Wizard Select databases")
 
-5. On the Migration Wizard **Select target** Blade, enter the following:
+6. On the Migration Wizard **Select target** Blade, enter the following:
 
    - **Target server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net**
    - **Authentication type (2)**: Select SQL Authentication.
@@ -247,15 +248,15 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
    ![The Migration Wizard Select target blade is displayed, with the values specified above entered into the appropriate fields.](media/updated55.png "Migration Wizard Select target")
 
-6. On the Migration Wizard **Map to target databases** Blade, confirm that **PartsUnlimited (1)** is checked as the source database, and **parts (2)** is the target database on the same line, then select **Next: Configuration migration settings >> (3)**.
+7. On the Migration Wizard **Map to target databases** Blade, confirm that **PartsUnlimited (1)** is checked as the source database, and **parts (2)** is the target database on the same line, then select **Next: Configuration migration settings >> (3)**.
 
     ![The Migration Wizard Map to target database blade is displayed, with the ContosoInsurance line highlighted.](media/updated56.png "Migration Wizard Map to target databases")
 
-7. On the Migration Wizard **Configure migration settings** Blade, expand the **PartsUnlimited (1)** database, verify all the tables are selected **(2)** and select **Next: Summary >> (3)**.
+8. On the Migration Wizard **Configure migration settings** Blade, expand the **PartsUnlimited (1)** database, verify all the tables are selected **(2)** and select **Next: Summary >> (3)**.
 
     ![The Migration Wizard Configure migration settings blade is displayed, with the expand arrow for PartsUnlimited highlighted, and all the tables checked.](media/updated57.png "Migration Wizard Configure migration settings")
 
-8. On the Migration Wizard **Summary** Blade, enter the following:
+9. On the Migration Wizard **Summary** Blade, enter the following:
 
     - **Activity name (1)**: Enter ``PartsUnlimitedDataMigration``
     - Select **Start migration (2)**.
@@ -263,25 +264,25 @@ At this point, you have migrated the database schema using DMA. In this task, yo
     ![The Migration Wizard summary blade is displayed, with PartsUnlimitedDataMigration entered into the name field.](media/updated58.png "Migration Wizard Summary")
 
 
-9. Monitor the migration on the status screen that appears. Select the refresh icon in the toolbar to retrieve the latest status.
+10. Monitor the migration on the status screen that appears. Select the refresh icon in the toolbar to retrieve the latest status.
 
     ![On the Migration job blade, the Refresh button is highlighted, and a status of Full backup uploading is displayed and highlighted.](media/updated59.png "Migration status")
 
     > The migration takes approximately 2 - 3 minutes to complete.
 
-10. When the migration is complete, you should see the status as **Completed**.
+11. When the migration is complete, you should see the status as **Completed**.
 
     ![On the Migration job blade, the status of Completed is highlighted.](media/updated60.png "Migration with Completed status")
 
-11. When the migration is complete, select the **PartsUnlimited** migration item.
+12. When the migration is complete, select the **PartsUnlimited** migration item.
 
     ![The ContosoInsurance migration item is highlighted on the PartsUnlimitedDataMigration blade.](media/updated61.png "PartsUnlimitedDataMigration details")
 
-12. Review the database migration details.
+13. Review the database migration details.
 
     ![A detailed list of tables included in the migration is displayed.](media/updated62.png "Database migration details")
 
-13. If you received a status of "Warning" for your migration, you can find more details by selecting **Download report** from the ContosoDataMigration screen.
+14. If you received a status of "Warning" for your migration, you can find more details by selecting **Download report** from the ContosoDataMigration screen.
 
     ![The Download report button is highlighted on the DMS Migration toolbar.](media/updated63.png "Download report")
 
