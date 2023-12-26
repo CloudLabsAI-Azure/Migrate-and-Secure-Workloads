@@ -224,22 +224,51 @@ At this point, you have migrated the database schema using DMA. In this task, yo
    ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Create_dmswith_name.png "New migration project")
 
 
-4. On the Migration Wizard **Select source** Blade, enter the following:
+4. Once the deployement is successful click on newly created Azure database Migration service and click on **New Migration**. :
 
-   - **Source SQL Server instance name (1)**: Enter the SQL DNS name - **<inject key="SQLVM DNS Name" enableCopy="true"/>** 
-   - **Authentication type (2)**: Select SQL Authentication.
-   - **Username (3)**: Enter **PUWebSite**
-   - **Password (4)**: Enter **<inject key="SQLVM Password" />**
-   - **Connection properties (5)**: Check both Encrypt connection and Trust server certificate.
-   - Select **Next: Select databases >> (6)**.
+   - **Source server type**: Select SQL Server.
+   - **Target server type**: Select Azure SQL Database.
+   - **Migration mode**: Select **Offline**
+   - **Configure runtime settings**.
+   - 
 
-   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](media/dms.png "Migration Wizard Select source")
+   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/click_on_new_migration_sql_dms.png "Migration Wizard Select source")
 
-5. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
+   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_new_migration_project.png "Migration Wizard Select source")
+
+5. Download and Install the integration runtime  agent and save the key for later to use with integration agent. to downlaod the integration agent use the **WebVM** Machine and then copy (CTRL+C) the MSI package of integration agent to **SQLVM** (CTRL+V) and click on install the agent on **SQLVM**
+
+   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_Integration_agent_copy.png "Migration Wizard Select source")
+
+6. After successful installation it will ask you for authentication key which we copied from the azure portal, please provide the copied key, click on **Register** and **Finish**.
+
+    ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/provide_cpoied_key.png "Migration Wizard Select source")
+
+    ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/proviude_clied_register_next_pending.png "Migration Wizard Select source")
+
+
+7. Go to azure portal and click on **Select**
+
+    ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/After_integration_setup.png "Migration Wizard Select source")
+
+
+8. On the Migration Wizard **Select source** Blade, enter the following:
+
+   - **Source SQL Server instance name**: Enter the SQL DNS name - **<inject key="SQLVM DNS Name" enableCopy="true"/>** 
+   - **Authentication type**: Select SQL Authentication.
+   - **Username**: Enter **demouser**
+   - **Password**: Enter **<inject key="SQLVM Password" />**
+   - **Connection properties**: Check both Encrypt connection and Trust server certificate.
+   - Select **Next: Select databases >>**.
+  
+    ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](Images/Select_source_creds.png "Migration Wizard Select databases")
+
+   
+9. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
 
     ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](media/updated54.png "Migration Wizard Select databases")
 
-6. On the Migration Wizard **Select target** Blade, enter the following:
+10. On the Migration Wizard **Select target** Blade, enter the following:
 
    - **Target server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net**
    - **Authentication type (2)**: Select SQL Authentication.
@@ -250,15 +279,15 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
    ![The Migration Wizard Select target blade is displayed, with the values specified above entered into the appropriate fields.](media/updated55.png "Migration Wizard Select target")
 
-7. On the Migration Wizard **Map to target databases** Blade, confirm that **PartsUnlimited (1)** is checked as the source database, and **parts (2)** is the target database on the same line, then select **Next: Configuration migration settings >> (3)**.
+11. On the Migration Wizard **Map to target databases** Blade, confirm that **PartsUnlimited (1)** is checked as the source database, and **parts (2)** is the target database on the same line, then select **Next: Configuration migration settings >> (3)**.
 
     ![The Migration Wizard Map to target database blade is displayed, with the ContosoInsurance line highlighted.](media/updated56.png "Migration Wizard Map to target databases")
 
-8. On the Migration Wizard **Configure migration settings** Blade, expand the **PartsUnlimited (1)** database, verify all the tables are selected **(2)** and select **Next: Summary >> (3)**.
+12. On the Migration Wizard **Configure migration settings** Blade, expand the **PartsUnlimited (1)** database, verify all the tables are selected **(2)** and select **Next: Summary >> (3)**.
 
     ![The Migration Wizard Configure migration settings blade is displayed, with the expand arrow for PartsUnlimited highlighted, and all the tables checked.](media/updated57.png "Migration Wizard Configure migration settings")
 
-9. On the Migration Wizard **Summary** Blade, enter the following:
+13. On the Migration Wizard **Summary** Blade, enter the following:
 
     - **Activity name (1)**: Enter ``PartsUnlimitedDataMigration``
     - Select **Start migration (2)**.
@@ -266,25 +295,25 @@ At this point, you have migrated the database schema using DMA. In this task, yo
     ![The Migration Wizard summary blade is displayed, with PartsUnlimitedDataMigration entered into the name field.](media/updated58.png "Migration Wizard Summary")
 
 
-10. Monitor the migration on the status screen that appears. Select the refresh icon in the toolbar to retrieve the latest status.
+14. Monitor the migration on the status screen that appears. Select the refresh icon in the toolbar to retrieve the latest status.
 
     ![On the Migration job blade, the Refresh button is highlighted, and a status of Full backup uploading is displayed and highlighted.](media/updated59.png "Migration status")
 
     > The migration takes approximately 2 - 3 minutes to complete.
 
-11. When the migration is complete, you should see the status as **Completed**.
+15. When the migration is complete, you should see the status as **Completed**.
 
     ![On the Migration job blade, the status of Completed is highlighted.](media/updated60.png "Migration with Completed status")
 
-12. When the migration is complete, select the **PartsUnlimited** migration item.
+16. When the migration is complete, select the **PartsUnlimited** migration item.
 
     ![The ContosoInsurance migration item is highlighted on the PartsUnlimitedDataMigration blade.](media/updated61.png "PartsUnlimitedDataMigration details")
 
-13. Review the database migration details.
+17. Review the database migration details.
 
     ![A detailed list of tables included in the migration is displayed.](media/updated62.png "Database migration details")
 
-14. If you received a status of "Warning" for your migration, you can find more details by selecting **Download report** from the ContosoDataMigration screen.
+18. If you received a status of "Warning" for your migration, you can find more details by selecting **Download report** from the ContosoDataMigration screen.
 
     ![The Download report button is highlighted on the DMS Migration toolbar.](media/updated63.png "Download report")
 
