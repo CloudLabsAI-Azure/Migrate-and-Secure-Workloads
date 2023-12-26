@@ -221,6 +221,9 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
    ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
 
+   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Create_dmswith_name.png "New migration project")
+
+
 4. On the Migration Wizard **Select source** Blade, enter the following:
 
    - **Source SQL Server instance name (1)**: Enter the SQL DNS name - **<inject key="SQLVM DNS Name" enableCopy="true"/>** 
