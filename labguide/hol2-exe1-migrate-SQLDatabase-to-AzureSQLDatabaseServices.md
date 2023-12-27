@@ -356,41 +356,41 @@ Now that we have both our application and database migrated to Azure. It is time
 
 1. In the [Azure portal](https://portal.azure.com), navigate to your `parts` SQL Database resource by selecting **Resource groups** from Azure services list, selecting the **hands-on-lab-<inject key="DeploymentID" enableCopy="false"/>** resource group, and selecting the `parts` SQL Database from the list of resources.
 
-   ![The parts SQL database resource is highlighted in the list of resources.](media/updated64.png "SQL database")
+   ![The parts SQL database resource is highlighted in the list of resources.](Images/updated64.png "SQL database")
 
-2. Switch to the **Connection strings (1)** Blade, and copy the connection string under **ADO.NET(SQL authentication)** by selecting the copy button **(2)**.
+2. Switch to the **Connection strings** Blade, and copy the connection string under **ADO.NET(SQL authentication)** by selecting the copy button.
 
-   ![Connection string panel if SQL Database is open. Copy button for ADO.NET connection string is highlighted.](media/appmod-ex4-t6-s2.png "Database connection string")
+   ![Connection string panel if SQL Database is open. Copy button for ADO.NET connection string is highlighted.](Images/appmod-ex4-t6-s2.png "Database connection string")
 
 3. Paste the value into a text editor, such as Notepad.exe, to replace the Password placeholder. Replace the `{your_password}` section with **<inject key="SQLVM Password" />**. Copy the full connection string with the replaced password for later use.
 
-    ![Notepad is open. SQL Connection string is pasted in. {your_password} placeholder is highlighted.](media/sql-connection-string-password-replace.png "Database connection string")
+    ![Notepad is open. SQL Connection string is pasted in. {your_password} placeholder is highlighted.](Images/sql-connection-string-password-replace.png "Database connection string")
 
-4. Go back to the resource list, navigate to your partsunlimited-web-<inject key="DeploymentID" enableCopy="false"/> **(2)** App Service resource. You can search for `partsunlimited-web` **(1)** to find your Web App and App Service Plan.
+4. Go back to the resource list, navigate to your partsunlimited-<inject key="DeploymentID" enableCopy="false"/> App Service resource. You can search for `**partsunlimited-XX** to find your Web App and App Service Plan.
 
-   ![The search box for resources is filled in with partsunlimited-web. The partsunlimited-web-20 Azure App Service is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](media/updated66.png "Resources")
+   ![The search box for resources is filled in with partsunlimited-web. The partsunlimited-web-20 Azure App Service is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](Images/updated66.png "Resources")
 
-5. Switch to the **Configuration (1)** Blade, and select **+New connection string (2)**.
+5. Switch to the **Configuration** Blade, and select **+New connection string**.
 
-    ![App service configuration panel is open. +New connection string button is highlighted.](media/updated67.png "App Service Configuration")
+    ![App service configuration panel is open. +New connection string button is highlighted.](Images/updated67.png "App Service Configuration")
 
 6. On the **Add/Edit connection string** panel, enter the following:
 
-   - **Name (1)**: Enter `DefaultConnectionString`
-   - **Value (2)**: Enter SQL Connection String you copied in Step 3.
-   - **Type (3)**: Select **SQLAzure**
-   - **Deployment slot setting (4)**: Check this option to make sure connection strings stick to a deployment slot. This will be helpful when we add additional deployment slots during the next exercises.
-   - Select **OK (5)**.
+   - **Name**: Enter `DefaultConnectionString`
+   - **Value**: Enter SQL Connection String you copied in Step 3.
+   - **Type**: Select **SQLAzure**
+   - **Deployment slot setting**: Check this option to make sure connection strings stick to a deployment slot. This will be helpful when we add additional deployment slots during the next exercises.
+   - Select **OK**.
 
-    ![Add/Edit Connection string panel is open. Name field is set to DefaultConnectionString. Value field is set to the connection string copied in a previous step. Type is set to SQL Azure. Deployment slot setting checkbox is checked. The OK button is highlighted. ](media/updated68.png "Adding connection string")
+    ![Add/Edit Connection string panel is open. Name field is set to DefaultConnectionString. Value field is set to the connection string copied in a previous step. Type is set to SQL Azure. Deployment slot setting checkbox is checked. The OK button is highlighted. ](Images/updated68.png "Adding connection string")
 
 7. Select **Save** and **Continue** for the following confirmation dialog.
 
-    ![App Service Configuration page is open. Save button is highlighted.](media/updated69.png "App Service Configuration")
+    ![App Service Configuration page is open. Save button is highlighted.](Images/updated69.png "App Service Configuration")
 
-8. Switch to the **Overview (1)** Blade, and select **Default domain (2)** to navigate to the Parts Unlimited web site hosted in our Azure App Service using Azure SQL Database.
+8. Switch to the **Overview** Blade, and select **Default domain** to navigate to the Parts Unlimited web site hosted in our Azure App Service using Azure SQL Database.
 
-    ![Overview panel for the App Service is on screen. URL for the app service if highlighted.](media/appmod-ex4-t6-s8.png "App Service public URL")
+    ![Overview panel for the App Service is on screen. URL for the app service if highlighted.](Images/appmod-ex4-t6-s8.png "App Service public URL")
     
     
  ## Summary
