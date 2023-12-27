@@ -211,6 +211,7 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
    ![On the Azure Database Migration Service blade, +New Migration Project is highlighted in the toolbar.](Images/Search_Azure_Database_Migration_Assistant.png "Azure Database Migration Service New Project")
 
+![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Create_dmswith_name.png "New migration project")
 
 3. On the New create Blade, enter the following:
 
@@ -219,9 +220,10 @@ At this point, you have migrated the database schema using DMA. In this task, yo
    - **Database Migration Service**: Select **Database Migration Service**
    - Select **Select**.
 
-   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
 
-   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Create_dmswith_name.png "New migration project")
+   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/click_new_migration_DMS.png "New migration project")
+
+   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
 
 
 4. Once the deployement is successful click on newly created Azure database Migration service and click on **New Migration**. :
