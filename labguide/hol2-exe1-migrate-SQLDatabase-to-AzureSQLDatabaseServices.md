@@ -233,23 +233,35 @@ At this point, you have migrated the database schema using DMA. In this task, yo
      ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_target_preapre.png "New migration project")
  
 
-5. Download and Install the integration runtime  agent and save the key for later to use with integration agent. to downlaod the integration agent use the **WebVM** Machine and then copy (CTRL+C) the MSI package of integration agent to **SQLVM** (CTRL+V) and click on install the agent on **SQLVM**
+5. Download and Install the integration runtime  agent and save the key for later to use with integration agent. to downlaod the integration agent use the **WebVM** Machine and then copy the MSI package of integration agent to **SQLVM**  and click on install the agent on **SQLVM**
 
-   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_Integration_agent_copy.png "Migration Wizard Select source")
+     - **To Copy** : you need to enable the resources on the local resources tab to copy the MSI integration installer package.
+       
+      ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/RDP_settings_to_cpy.png "Migration Wizard Select source")
 
-6. After successful installation it will ask you for authentication key which we copied from the azure portal, please provide the copied key, click on **Register** and **Finish**.
+     - **To Verify**: go on the downlaods folder of the user using which you downloaded the integration agent
+       
+       ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/verify_files_installer.png "Migration Wizard Select source")
+  
+     - **To Install**: right click on the installer and click on install. please click on **next**, accept the license agreement and keep the opther settings default and proceed with the **Next** button at each step of installation of 
+       integration installer.  
+
+       ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/drag_installer_to_desktop.png "Migration Wizard Select source")
+
+
+7. After successful installation it will ask you for authentication key which we copied from the azure portal, please provide the copied key, click on **Register** and **Finish**.
 
     ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/provide_cpoied_key.png "Migration Wizard Select source")
 
     ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/proviude_clied_register_next_pending.png "Migration Wizard Select source")
 
 
-7. Go to azure portal and click on **Select**
+8. Go to azure portal and click on **Select**
 
     ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/After_integration_setup.png "Migration Wizard Select source")
 
 
-8. On the Migration Wizard **Select source** Blade, enter the following:
+9. On the Migration Wizard **Select source** Blade, enter the following:
 
    - **Source SQL Server instance name**: Enter the SQL DNS name - **<inject key="SQLVM DNS Name" enableCopy="true"/>** 
    - **Authentication type**: Select SQL Authentication.
@@ -261,11 +273,11 @@ At this point, you have migrated the database schema using DMA. In this task, yo
     ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](Images/Select_source_creds.png "Migration Wizard Select databases")
 
    
-9. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
+10. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
 
     ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](media/updated54.png "Migration Wizard Select databases")
 
-10. On the Migration Wizard **Select target** Blade, enter the following:
+11. On the Migration Wizard **Select target** Blade, enter the following:
 
    - **Target server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net**
    - **Authentication type (2)**: Select SQL Authentication.
