@@ -249,14 +249,14 @@ At this point, you have migrated the database schema using DMA. In this task, yo
        ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/drag_installer_to_desktop.png "Migration Wizard Select source")
 
 
-7. After successful installation it will ask you for authentication key which we copied from the azure portal, please provide the copied key, click on **Register** and **Finish**.
+6. After successful installation it will ask you for authentication key which we copied from the azure portal, please provide the copied key, click on **Register** and **Finish**.
 
     ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/provide_cpoied_key.png "Migration Wizard Select source")
 
     ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/proviude_clied_register_next_pending.png "Migration Wizard Select source")
 
 
-8. Go to azure portal and click on **Select**
+7. Go to azure portal and click on **Select**
 
     ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/After_integration_setup.png "Migration Wizard Select source")
 
@@ -265,12 +265,32 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
    - **Source SQL Server instance name**: Enter the SQL DNS name - **<inject key="SQLVM DNS Name" enableCopy="true"/>** 
    - **Authentication type**: Select SQL Authentication.
-   - **Username**: Enter **demouser**
+   - **Username**: Enter **PUWebSite**
    - **Password**: Enter **<inject key="SQLVM Password" />**
    - **Connection properties**: Check both Encrypt connection and Trust server certificate.
    - Select **Next: Select databases >>**.
   
-    ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](Images/Select_source_creds.png "Migration Wizard Select databases")
+    ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](Images/Provide_sql_creds_and_hostname_to_migrate.png "Migration Wizard Select databases")
+
+
+
+- Note: if you face any issues related to the User and password is incorrect, go to the database and check the user is disabled or not. if user is disabled please refer the below screenshot to resolve the issue
+   - **On SQL Server**: Click on new query and run the below query
+
+```
+
+   -- Connect to the master database
+   USE master;
+   
+   -- Enable the user (if it's disabled)
+   ALTER LOGIN PUWebSite ENABLE;
+   
+   -- Change the password for the user in the master database
+   ALTER LOGIN PUWebSite WITH PASSWORD = 'SQLVM Password';
+
+```
+
+   ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](Images/Database_Qurty_if_user_is_disabled.png "Migration Wizard Select databases")
 
    
 10. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
