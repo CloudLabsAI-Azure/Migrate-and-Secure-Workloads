@@ -274,8 +274,8 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
 
 
-- Note: if you face any issues related to the User and password is incorrect, go to the database and check the user is disabled or not. if user is disabled please refer the below screenshot to resolve the issue
-   - **On SQL Server**: Click on new query and run the below query
+   > **Note**: If you face any issues related to the User and password is incorrect, go to the database and check the user is disabled or not. if user is disabled please refer the below screenshot to resolve the issue
+      - **On SQL Server**: Click on new query and run the below query
 
 ```
 
@@ -295,62 +295,60 @@ At this point, you have migrated the database schema using DMA. In this task, yo
    
 10. The PartsUnlimited databases comes preselected. Select **Next: Select target >>** to continue.
 
-    ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](media/updated54.png "Migration Wizard Select databases")
+    ![The Migration Wizard Select database blade is displayed. PartsUnlimited databases is selected. Next: Select target >> button is highlighted.](Images/Database_Selected.png "Migration Wizard Select databases")
 
 11. On the Migration Wizard **Select target** Blade, enter the following:
 
-   - **Target server name (1)**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net**
-   - **Authentication type (2)**: Select SQL Authentication.
-   - **Username (3)**: Enter **demouser**
-   - **Password (4)**: Enter **<inject key="SQLVM Password" />**
-   - **Connection properties**: Check Encrypt connection.
-   - Select **Next: Map to target databases >> (5)**.
+   - **Subscription**: Provide the Subscription
+   - **Resource Group**: Provide the Resource Group
+   - **Target server name**: Enter the server name of your Azure SQL Database - **<inject key="sqlDatabaseName" enableCopy="false"/>.database.windows.net**
+   - **Authentication type**: Select SQL Authentication.
+   - **Username**: Enter **demouser**
+   - **Password**: Enter **<inject key="SQLVM Password" />**
+   - Select **Next: Map Source and target databases >>**.
 
-   ![The Migration Wizard Select target blade is displayed, with the values specified above entered into the appropriate fields.](media/updated55.png "Migration Wizard Select target")
+   ![The Migration Wizard Select target blade is displayed, with the values specified above entered into the appropriate fields.](Images/Connecting_to_aTarget_database.png "Migration Wizard Select target")
 
-11. On the Migration Wizard **Map to target databases** Blade, confirm that **PartsUnlimited (1)** is checked as the source database, and **parts (2)** is the target database on the same line, then select **Next: Configuration migration settings >> (3)**.
+11. On the Migration Wizard **Map to target databases** Blade, confirm that **PartsUnlimited** is checked as the source database, and **parts-XX** is the target database on the same line, then select **Next: Configuration migration settings >>**.
 
-    ![The Migration Wizard Map to target database blade is displayed, with the ContosoInsurance line highlighted.](media/updated56.png "Migration Wizard Map to target databases")
+    ![The Migration Wizard Map to target database blade is displayed, with the ContosoInsurance line highlighted.](Images/Select_the_target_database_name.png "Migration Wizard Map to target databases")
 
-12. On the Migration Wizard **Configure migration settings** Blade, expand the **PartsUnlimited (1)** database, verify all the tables are selected **(2)** and select **Next: Summary >> (3)**.
+12. On the Migration Wizard **Configure migration settings** Blade, expand the **PartsUnlimited** database, verify all the tables are selected and select **Next: Summary >>**.
 
-    ![The Migration Wizard Configure migration settings blade is displayed, with the expand arrow for PartsUnlimited highlighted, and all the tables checked.](media/updated57.png "Migration Wizard Configure migration settings")
+    ![The Migration Wizard Configure migration settings blade is displayed, with the expand arrow for PartsUnlimited highlighted, and all the tables checked.](Images/updated57.png "Migration Wizard Configure migration settings")
 
 13. On the Migration Wizard **Summary** Blade, enter the following:
 
-    - **Activity name (1)**: Enter ``PartsUnlimitedDataMigration``
-    - Select **Start migration (2)**.
+    - **Activity name**: Enter ``PartsUnlimitedDataMigration``
+    - Select **Start migration**.
 
-    ![The Migration Wizard summary blade is displayed, with PartsUnlimitedDataMigration entered into the name field.](media/updated58.png "Migration Wizard Summary")
+    ![The Migration Wizard summary blade is displayed, with PartsUnlimitedDataMigration entered into the name field.](Images/updated58.png "Migration Wizard Summary")
 
 
 14. Monitor the migration on the status screen that appears. Select the refresh icon in the toolbar to retrieve the latest status.
 
-    ![On the Migration job blade, the Refresh button is highlighted, and a status of Full backup uploading is displayed and highlighted.](media/updated59.png "Migration status")
+    ![On the Migration job blade, the Refresh button is highlighted, and a status of Full backup uploading is displayed and highlighted.](Images/updated59.png "Migration status")
 
     > The migration takes approximately 2 - 3 minutes to complete.
 
-15. When the migration is complete, you should see the status as **Completed**.
+15. When the migration is complete, you should see the status as **Completed**. select the **PartsUnlimited** migration item
 
-    ![On the Migration job blade, the status of Completed is highlighted.](media/updated60.png "Migration with Completed status")
+    ![On the Migration job blade, the status of Completed is highlighted.](Images/updated60.png "Migration with Completed status")
 
-16. When the migration is complete, select the **PartsUnlimited** migration item.
-
-    ![The ContosoInsurance migration item is highlighted on the PartsUnlimitedDataMigration blade.](media/updated61.png "PartsUnlimitedDataMigration details")
 
 17. Review the database migration details.
 
-    ![A detailed list of tables included in the migration is displayed.](media/updated62.png "Database migration details")
+    ![A detailed list of tables included in the migration is displayed.](Images/updated62.png "Database migration details")
 
 18. If you received a status of "Warning" for your migration, you can find more details by selecting **Download report** from the ContosoDataMigration screen.
 
-    ![The Download report button is highlighted on the DMS Migration toolbar.](media/updated63.png "Download report")
+    ![The Download report button is highlighted on the DMS Migration toolbar.](Images/updated63.png "Download report")
 
     > **Note**: The **Download report** button will be disabled if the migration is completed without warnings or errors.
 
     The reason for the warning can be found in the Validation Summary section. In the report below, you can see that a storage object schema difference triggered a warning. However, the report also reveals that everything was migrated successfully.            
 
-    ![The output of the database migration report is displayed.](media/dms-migration-wizard-report.png "Database migration report")
+    ![The output of the database migration report is displayed.](Images/dms-migration-wizard-report.png "Database migration report")
 
 ## Task 6: Configure the application connection to SQL Azure Database
 
