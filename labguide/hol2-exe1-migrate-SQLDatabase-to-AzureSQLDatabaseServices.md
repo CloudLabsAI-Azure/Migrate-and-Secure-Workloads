@@ -209,21 +209,16 @@ At this point, you have migrated the database schema using DMA. In this task, yo
 
 1. On the Azure Database Migration Service Blade, select **Create**.
 
-   ![On the Azure Database Migration Service blade, +New Migration Project is highlighted in the toolbar.](Images/Search_Azure_Database_Migration_Assistant.png "Azure Database Migration Service New Project")
-
-![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Create_dmswith_name.png "New migration project")
-
-3. On the New create Blade, enter the following:
-
    - **Source server type**: Select SQL Server.
    - **Target server type**: Select Azure SQL Database.
    - **Database Migration Service**: Select **Database Migration Service**
    - Select **Select**.
 
+   ![On the Azure Database Migration Service blade, +New Migration Project is highlighted in the toolbar.](Images/Search_Azure_Database_Migration_Assistant.png "Azure Database Migration Service New Project")
 
-   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/click_new_migration_DMS.png "New migration project")
+    ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
 
-   ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_DMS_Assistant_Create.png "New migration project")
+![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Create_dmswith_name.png "New migration project")
 
 
 4. Once the deployement is successful click on newly created Azure database Migration service and click on **New Migration**. :
@@ -232,11 +227,11 @@ At this point, you have migrated the database schema using DMA. In this task, yo
    - **Target server type**: Select Azure SQL Database.
    - **Migration mode**: Select **Offline**
    - **Configure runtime settings**.
-   - 
 
-   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/click_on_new_migration_sql_dms.png "Migration Wizard Select source")
+     ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/click_new_migration_DMS.png "New migration project")
 
-   ![The Migration Wizard Select source blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_new_migration_project.png "Migration Wizard Select source")
+     ![The New migration project blade is displayed, with the values specified above entered into the appropriate fields.](Images/Select_target_preapre.png "New migration project")
+ 
 
 5. Download and Install the integration runtime  agent and save the key for later to use with integration agent. to downlaod the integration agent use the **WebVM** Machine and then copy (CTRL+C) the MSI package of integration agent to **SQLVM** (CTRL+V) and click on install the agent on **SQLVM**
 
