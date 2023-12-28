@@ -7,7 +7,8 @@
 ## Lab objectives ( Duration: 30 minutes)
 In this lab, you will complete the following tasks:
 - Task 1: Create a Log Analytics Workspace
-- Task 2: Enable Microsoft Defender for Cloud
+- Task 2: Enable Microsoft Defender for Cloud for Servers and DBs
+- Task 3: Vulnerability Assessment and Review
 
 ## Architecture Diagram
 
