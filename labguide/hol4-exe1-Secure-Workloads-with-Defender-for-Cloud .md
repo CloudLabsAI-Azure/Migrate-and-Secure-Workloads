@@ -1,5 +1,4 @@
-
-## Part:1 Lab 01 - Secure Workloads with Defender for Cloud  
+# Exercise : Secure Workloads with Defender for Cloud  
 
 ## Lab scenario
  You are a Security Operations Analyst working at a company that is implementing Miccrosft azure Defender for cloud. You start by assigning preset security policies in EOP and Microsoft azure Defender for cloud.
