@@ -7,7 +7,7 @@
 In this lab, you will complete the following tasks:
 - Task 1: Create a Log Analytics Workspace
 - Task 2: Enable Microsoft Defender for Cloud for Servers and DBs
-- Task 3: Enable Vulnerability Assessment and Review recommendations
+- Task 3: Enable Vulnerability Assessment and Review Recommendations
 
 ## Architecture Diagram
 
@@ -82,7 +82,7 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
    >**Note:** If the page is not being displayed, refresh your Edge browser and try again and if Plans are already enable no need to change anything.
 
 
-### Task 3: Enable Vulnerability Assessment and Review
+### Task 3: Enable Vulnerability Assessment and Review Recommendations
 
 In this task, you will enable the vulnerability assessment Microsoft Defender for Cloud and review the recommendation.
 
