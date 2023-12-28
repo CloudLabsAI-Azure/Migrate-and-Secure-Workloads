@@ -7,7 +7,7 @@
 In this lab, you will complete the following tasks:
 - Task 1: Create a Log Analytics Workspace
 - Task 2: Enable Microsoft Defender for Cloud for Servers and DBs
-- Task 3: Vulnerability Assessment and Review
+- Task 3: Enable Vulnerability Assessment and Review recommendations
 
 ## Architecture Diagram
 
@@ -82,11 +82,12 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
    >**Note:** If the page is not being displayed, refresh your Edge browser and try again and if Plans are already enable no need to change anything.
 
 
-### Task 3: Vulnerability Assessment and Review
+### Task 3: Enable Vulnerability Assessment and Review
 
 In this task, you will enable the vulnerability assessment Microsoft Defender for Cloud and review the recommendation.
 
-1. Enable the Vulnerability assessment settings for the machines. on **Environment settings** page.
+1. Enable the Vulnerability assessment settings for the machines. on **Environment settings** page. click on **Settings** under servers plan. and turn **ON** Vulnerability assessment 
+   settings for machine
 
    ![](Images/Click_Settins_to_Enable_vulnerabilioty_asssessment.png)
 
@@ -96,8 +97,19 @@ In this task, you will enable the vulnerability assessment Microsoft Defender fo
 
    ![](Images/Apply_Vulnerability.png)
 
+   ![](Images/save_settings.png)
 
-## Review
-In this lab, you will complete the following tasks:
-- Create a Log Analytics Workspace
-- Enable Microsoft Defender for Cloud
+1. Now we will **Review** the vulnerability assessment recommendations. go to Microsoft Defender for Cloud and click on **Recommendations**.
+
+    ![](Images/review_recommendations_not_expand.png)
+
+1. Expand the Recommendations to view the actions to perform to make the machines Healthy from Vulnerable.
+
+   ![](Images/view_recommendations.png)
+
+
+1. For this lab there are only few recommendations were there and we can also see the status of the actions whether completed or not to track the vulnerability assessment activity.
+
+
+## Summary
+In this exercise, you have created the log analytics workspace and enbaled the plans of Microsoft defender for cloud for your azure resources, also you have enabled the vulnerability assessment for the machines and recommendations reviewed.
