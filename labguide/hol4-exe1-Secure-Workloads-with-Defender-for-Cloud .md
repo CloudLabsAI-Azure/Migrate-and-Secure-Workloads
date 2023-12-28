@@ -83,6 +83,11 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
 1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
 
+
+### Task 3: Vulnerability Assessment and Review
+
+
+
 ## Review
 In this lab, you will complete the following tasks:
 - Create a Log Analytics Workspace
