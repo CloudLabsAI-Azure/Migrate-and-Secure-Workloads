@@ -81,11 +81,20 @@ In this task, you will enable and configure Microsoft Defender for Cloud.
 
    >**Note:** If the page is not being displayed, refresh your Edge browser and try again and if Plans are already enable no need to change anything.
 
-1. Close the Defender plans page by selecting the 'X' on the upper right of the page to go back to the **Environment settings**
-
 
 ### Task 3: Vulnerability Assessment and Review
 
+In this task, you will enable the vulnerability assessment Microsoft Defender for Cloud and review the recommendation.
+
+1. Enable the Vulnerability assessment settings for the machines. on **Environment settings** page.
+
+   ![](Images/Click_Settins_to_Enable_vulnerabilioty_asssessment.png)
+
+   ![](Images/On_settins_vulnerability.png)
+
+1. Select a vulnerability assessment solution, Click on **Apply** and **Continue**. make sure to **save** the settings on the  **Environment settings** page.
+
+   ![](Images/Apply_Vulnerability.png)
 
 
 ## Review
