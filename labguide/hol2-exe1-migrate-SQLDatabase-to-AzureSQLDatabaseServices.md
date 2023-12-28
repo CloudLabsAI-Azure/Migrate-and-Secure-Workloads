@@ -1,4 +1,4 @@
-# Exercise 4: Migrate the on-premises database to Azure SQL Database
+# Exercise : Migrate the on-premises database to Azure SQL Database
 
 Duration: 55 minutes
 
