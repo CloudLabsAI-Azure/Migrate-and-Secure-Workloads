@@ -108,7 +108,7 @@ In this task, you will enable the vulnerability assessment Microsoft Defender fo
    ![](Images/view_recommendations.png)
 
 
-1. For this lab there are only few recommendations were there and we can also see the status of the actions whether completed or not to track the vulnerability assessment activity.
+1. For this lab there are only few recommendations and we can also see the status whether recommendations completed or not to track the vulnerability assessment activity based on actions performed on the recommendations.
 
 
 ## Summary
