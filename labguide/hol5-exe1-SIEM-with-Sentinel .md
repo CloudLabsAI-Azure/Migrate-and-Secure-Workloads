@@ -8,7 +8,7 @@ In this lab you will walk through the process of creating an  Microsoft Sentinel
 In this lab, you will complete the following task:
 
 + Task 1: Create a Microsoft Sentinel instance
-+ Task 2: Ingest Logs from Defender for Cloud and Azure Activity.
++ Task 2: Ingest Logs from Defender for Cloud and Azure Active Directory and Azure Activity.
 + Task 3: Query Logs with KQL
 + Task 4: Simulate attack and investigate threats
 
@@ -16,7 +16,7 @@ In this lab, you will complete the following task:
 
 ![](Images/part1lab03.png)
 
-## Task 1:  Create a Microsoft Sentinel instance
+## Task 1: Create a Microsoft Sentinel instance
 
 1. In the Azure portal, in the **Search Bar** search for **Microsoft Sentinel** then select **Microsoft Sentinel** from the search results. 
 
@@ -37,6 +37,37 @@ In this lab, you will complete the following task:
 1. Keep this page open, as you will use it in the next task.
 
 
-## Task 1:  Ingest Logs from Defender for Cloud and Azure Activity
+## Task 2: Ingest Logs from Defender for Cloud and Azure Active Directory (Microsoft Entra ID) and Azure Activity
 
-1. 
+1. Enabling Defender to monitor events
+
+   In this task, you will explore ingesting logs from Microsoft Defender for Cloud.
+
+1. In the Search bar of the Azure portal, type *Defender*, then select **Microsoft Defender for Cloud**.
+
+1. From Defender for Cloud's menu, open **Environment settings**.
+
+1. Select **Subscription** and click on *Defender Plans* on left blade. Then you need to click on *Settings&Monitoring* inbetween the page at top left.
+
+   ![Picture 1](Images/Subscription_Select_new.png)
+
+1. Enable the **Log Analytics agent** which will Collects security-related configurations and event logs from the machine and stores the data in your Log Analytics workspace for analysis.
+
+   ![Picture 1](Images/Log_Analytics_Enable_1_new.png)
+
+   ![Picture 1](Images/Log_Ananytics_Enable_2_new.png)
+
+1. For Microsoft Defender data to ingest to Sentinel you need to use the connectors provided by the Sentinel.
+
+   ![Picture 1](Images/Sentinel_course_6_dataconnectors_1_new.png)
+
+1. Now you need to click on install the conenctor of Microsoft Defender for Cloud, Microsoft 365 Defender, Azure Active Directory (Microsoft Entra ID) and Azure Activity  to get the logs 
+   into the Sentinel
+
+   ![Picture 1](Images/Sentinel_Install_Defender_Connector_2_new.png)
+
+   ![Picture 1](Images/Sentinel_Azure_ad_Connector_install_new.png)
+
+   
+
+
