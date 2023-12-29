@@ -310,5 +310,4 @@ In this task, you will use generate visualizations with KQL statements.
     ```
 
 
-
 ## Task 4: Simulate attack and investigate threats
