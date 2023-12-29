@@ -33,7 +33,7 @@ In this task, you will create a Log Analytics workspace for use with Microsoft D
 
 1. Select **Review + Create**.
 
-   ![](Images/image10.png)
+   ![](Images/log_anaytics_workspace_new.png)
 
 1. Once the workspace validation has passed, select **Create**. Wait for the new workspace to be provisioned, this may take a few minutes.
 
