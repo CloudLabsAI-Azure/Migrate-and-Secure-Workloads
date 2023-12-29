@@ -34,8 +34,6 @@ In this lab, you will complete the following task:
    
    ![Picture 1](Images/image_9.png)
 
-1. Keep this page open, as you will use it in the next task.
-
 
 ## Task 2: Ingest Logs from Defender for Cloud and Azure Active Directory (Microsoft Entra ID) and Azure Activity
 
@@ -68,6 +66,7 @@ In this lab, you will complete the following task:
 
    ![Picture 1](Images/Sentinel_Azure_ad_Connector_install_new.png)
 
-   
+
+## Task 1: Query Logs with KQL
 
 
