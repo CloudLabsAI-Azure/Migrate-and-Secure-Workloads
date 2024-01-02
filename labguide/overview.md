@@ -85,7 +85,7 @@ Using this environment, You'll be able to explore complete features and offering
 - **Azure Cost Analysis**: Maintain a practice of checking the Cost Analysis report of the assigned Azure subscription oftenly in check the Azure spend so that enviornment for a longer duration of time.
 
 - **Alert notifications**: Make sure to check your registered email's inbox for any alert-related mails. Alerts give you can head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible.
-- 
+
 ## Lab guide Content:
 
 You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
@@ -99,7 +99,6 @@ You will have access to a lab guide which is a reference material to assist you 
 - Lab 07 - hol3 exe3 migrate WebApps to AzureAppServices Migrate Legacy Application
 - Lab 08 - hol4 exe1 Secure Workloads with Defender for Cloud
 - Lab 09 - hol5 exe1 SIEM with Sentinel
-
 
 ### Azure services and related products
 
