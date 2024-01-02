@@ -314,7 +314,7 @@ In this task, you will use generate visualizations with KQL statements.
 
 # Persistence Attack with Registry Key Add 
 
-1. Follow the instructions to log into WINServer again.
+1. Log into WINDOWS Server again.
 
 1. In the search of the task bar, enter *Command*. Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
 
@@ -406,9 +406,9 @@ In this task, you will perform attacks on the host connected with Azure Arc that
 
 >**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
 
-1. Go to Hyper-V manager. Connect to WINSERVER virtual machine.
+1. Connect to WINDOES SERVER virtual machine.
 
-1. Login to WINSERVER virtual machine as Admin with the password: **Password.1!!**.  
+1. Login to WINDOES SERVER virtual machine as Admin with the password: **Password.1!!**.  
 
     >**Important:** The lab *SAVE* functionality can cause WINServer to become disconnected from Azure Arc. A reboot will solve the issue. 
 
