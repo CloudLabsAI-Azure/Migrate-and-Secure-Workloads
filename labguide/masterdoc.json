@@ -31,15 +31,15 @@
         {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol3-exe2-migrate-WebApps-to-AzureAppServices-Assessment-Legacy-Application.md",
           "Order": 7
-        }
+        },
          {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol3-exe3-migrate-WebApps-to-AzureAppServices-Migrate-Legacy-Application.md",
           "Order": 8
-        }
+        },
          {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol4-exe1-Secure-Workloads-with-Defender-for-Cloud.md",
           "Order": 9
-        }
+        },
          {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol5-exe1-SIEM-with-Sentinel.md",
           "Order": 10
