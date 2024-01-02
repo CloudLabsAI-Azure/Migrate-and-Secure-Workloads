@@ -31,7 +31,7 @@
         {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol3-exe2-migrate-WebApps-to-AzureAppServices-Assessment-Legacy-Application.md",
           "Order": 7
-        }
+        },
          {
           "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Migrate-and-Secure-Workloads/main/labguide/hol3-exe3-migrate-WebApps-to-AzureAppServices-Migrate-Legacy-Application.md",
           "Order": 8
