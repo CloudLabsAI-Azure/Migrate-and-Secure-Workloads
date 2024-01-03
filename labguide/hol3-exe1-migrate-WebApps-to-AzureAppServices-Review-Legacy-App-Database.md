@@ -5,7 +5,7 @@
 In this lab, participants will delve into the evaluation and analysis of a legacy on-premises application hosted on the Internet Information Services (IIS) platform running on a Windows server.
 
 ## Lab scenario
-In this HOL, you will access the website of partsunlimited on localhost and also verify the database by logging into the database machine.
+In this lab, you will access the website of partsunlimited on localhost and also verify the database by logging into the database machine.
 
 ## Lab objectives (Duration: 10 minutes)
 
