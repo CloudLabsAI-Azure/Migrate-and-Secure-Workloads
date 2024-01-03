@@ -18,6 +18,11 @@ In this lab, you will complete the following tasks:
 + Task 6: Verify Migrated Server.
 
 
+## Architecture Diagram
+
+  ![Picture 1](Images/Azure-Migrate-Appliance-and-Migrate-new.png)
+
+
 ### Task 1: Create a Storage Account
 
 In this task you will create a new Azure Storage Account that will be used by Migration and for storage of your virtual machine data during migration.
