@@ -1,8 +1,17 @@
-# HOL 1: Migrate Windows and Linux Servers to Azure
+# HOL 1 - Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 
-Duration: 25 minutes
+## Lab overview
 
-## Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
+Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
+
+## Lab scenario
+In this HOL, you will learn how to create a migration assessment, using the Azure Migrate dependency visualization, right-sizing of on-premises resources.
+
+## Lab objectives (Duration: 25 minutes)
+
+In this lab, you will complete the following tasks:
++ Task 1: Create a migration assessment.
++ Task 2: Configure dependency visualization.
 
 ### Task 1: Create a migration assessment
 
