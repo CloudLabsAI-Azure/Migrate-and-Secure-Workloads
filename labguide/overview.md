@@ -90,15 +90,20 @@ Using this environment, You'll be able to explore complete features and offering
 
 You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
 
-- Lab 01 - hol1 exe1 create setup azure migrate
-- Lab 02 - hol1 exe2 discover assess workloads with appliance
-- Lab 03 - hol1 exe3 migrate servers to azure
-- Lab 04 - hol2 exe1 migrate SQLDatabase to AzureSQLDatabaseServices 
-- Lab 05 - hol3 exe1 migrate WebApps to AzureAppServices Review Legacy App Database
-- Lab 06 - hol3 exe2 migrate WebApps to AzureAppServices Assessment Legacy Application
-- Lab 07 - hol3 exe3 migrate WebApps to AzureAppServices Migrate Legacy Application
-- Lab 08 - hol4 exe1 Secure Workloads with Defender for Cloud
-- Lab 09 - hol5 exe1 SIEM with Sentinel
+- hol1
+  - exe1 - create setup azure migrate
+  - exe2 - discover assess workloads with appliance
+  - exe3 - migrate servers to azure
+- hol2
+  - exe1 - migrate SQLDatabase to AzureSQLDatabaseServices 
+- hol3
+  - exe1 - migrate WebApps to AzureAppServices Review Legacy App Database
+  - exe2 - migrate WebApps to AzureAppServices Assessment Legacy Application
+  - exe3 - migrate WebApps to AzureAppServices Migrate Legacy Application
+- hol4
+  - exe1 - Secure Workloads with Defender for Cloud
+- hol5
+  - exe1 - SIEM with Sentinel
 
 ### Azure services and related products
 
