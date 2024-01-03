@@ -85,6 +85,9 @@ In this task, you will access a Log Analytics environment where you can practice
     SecurityEvent
     ```
 
+  >**Note:** there are high chances that you will see no output of SecurityEvents Query or many of the below provided Query this is due to the incidents for which query ran may not 
+    occured.
+
 1. Next to the first record, select the **>** to expand the information for the row.
 
     ![Picture 1](Images/SC-200-img-7.png)
