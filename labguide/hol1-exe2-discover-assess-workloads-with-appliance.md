@@ -1,11 +1,11 @@
-# HOL 1 - Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
+# Lab 1 - Exercise 2: Discover and Assess On-premises Workloads to set up your environment on Azure to Migrate Servers
 
 ## Lab overview
 
 Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
 
 ## Lab scenario
-In this HOL, you will learn how to create a migration assessment, using the Azure Migrate dependency visualization, right-sizing of on-premises resources.
+In this Lab, you will learn how to create a migration assessment, using the Azure Migrate dependency visualization, right-sizing of on-premises resources.
 
 ## Lab objectives (Duration: 25 minutes)
 
