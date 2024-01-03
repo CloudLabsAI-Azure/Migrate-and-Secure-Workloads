@@ -22,6 +22,8 @@ In this lab, you will complete the following tasks:
 
   ![Picture 1](Images/database-migration-image.png)
 
+  ![Picture 1](Images/Database-dms-migration.png)
+
 ## Task 1: Connect to your SqlServer2008 VM with RDP
 
 1. From your lab environment (**WebVM**), in the search bar, **Search** for **RDP** and **select** the **Remote Desktop Connection** app.
