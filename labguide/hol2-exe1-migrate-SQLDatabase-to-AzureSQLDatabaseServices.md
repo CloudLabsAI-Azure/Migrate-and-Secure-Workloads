@@ -17,6 +17,11 @@ In this lab, you will complete the following tasks:
 + Task 5: Migrate the database using the Azure Database Migration Service.
 + Task 6: Configure the application connection to SQL Azure Database.
 
+
+## Architecture Diagram
+
+  ![Picture 1](Images/database-migration-image.png)
+
 ## Task 1: Connect to your SqlServer2008 VM with RDP
 
 1. From your lab environment (**WebVM**), in the search bar, **Search** for **RDP** and **select** the **Remote Desktop Connection** app.
