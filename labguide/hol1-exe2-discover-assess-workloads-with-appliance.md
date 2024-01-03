@@ -13,6 +13,10 @@ In this lab, you will complete the following tasks:
 + Task 1: Create a migration assessment.
 + Task 2: Configure dependency visualization.
 
+## Architecture Diagram
+
+  ![Picture 1](Images/Azure-Migrate-Appliance-and-Migrate-new.png)
+
 ### Task 1: Create a migration assessment
 
 In this task, you will use Azure Migrate to create a migration assessment for the SmartHotel application, using the data gathered during the discovery phase.
