@@ -1,11 +1,11 @@
-# HOL 1 - Exercise 3: Replicate and Migrate On-premises Virtual Machines to Azure, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+# Lab 1 - Exercise 3: Replicate and Migrate On-premises Virtual Machines to Azure, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
 ## Lab overview
 
 Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
 
 ## Lab scenario
-In this HOL, you will learn how to register the machines, how to enable the replication, configure the networking for the newly migrated machines and verify the migrated servers.
+In this Lab, you will learn how to register the machines, how to enable the replication, configure the networking for the newly migrated machines and verify the migrated servers.
 
 ## Lab objectives (Duration: 45 minutes)
 
