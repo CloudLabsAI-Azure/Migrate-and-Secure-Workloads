@@ -1,11 +1,11 @@
-# HOL 1 - Exercise 1: Create and Setup Azure Migrate Project and Appliance
+# Lab 1 - Exercise 1: Create and Setup Azure Migrate Project and Appliance
 
 ## Lab overview
 
 Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
 
 ## Lab scenario
-In this HOL, you will learn how to use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. you will be creating the azure migrate project and setting up the appliance machine for assessment and migrate.
+In this Lab, you will learn how to use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. you will be creating the azure migrate project and setting up the appliance machine for assessment and migrate.
 
 ## Lab objectives (Duration: 60 minutes)
 
