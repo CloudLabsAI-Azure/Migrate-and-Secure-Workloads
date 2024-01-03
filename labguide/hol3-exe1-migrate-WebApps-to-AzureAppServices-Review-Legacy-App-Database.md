@@ -1,6 +1,16 @@
-# Exercise 1: Review the Legacy On-Prem Application
+# Lab 1 - Exercise 1: Review the Legacy On-Prem Application and SQL Database
 
-Duration: 10 minutes
+## Lab overview
+
+In this lab, participants will delve into the evaluation and analysis of a legacy on-premises application hosted on the Internet Information Services (IIS) platform running on a Windows server.
+
+## Lab scenario
+In this HOL, you will access the website of partsunlimited on localhost and also verify the database by logging into the database machine.
+
+## Lab objectives (Duration: 10 minutes)
+
+In this lab, you will complete the following tasks:
++ Task 1: Review the Legacy On-Prem Application and SQL Database.
 
 In this lab, we have provisioned a web application called **Parts Unlimited**. It is an ASP.NET two-tier application that runs on a windows server with the SQL server back-end and web server front-end.
 
