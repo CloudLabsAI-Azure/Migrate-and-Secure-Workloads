@@ -13,6 +13,10 @@ In this lab, you will complete the following tasks:
 + Task 1: Assessment of localhost website
 
 
+## Architecture Diagram
+
+  ![Picture 1](Images/App-Service-Migration.png)
+
 ## Task 1: Assessment of localhost website
 
 1. From the Windows search bar, search for **Default apps** and select it.
