@@ -1,12 +1,21 @@
-# HOL 1: Migrate Windows and Linux Servers to Azure
+# HOL 1 - Exercise 1: Create and Setup Azure Migrate Project and Appliance
 
-Duration: 20 minutes
+## Lab overview
 
+Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
+
+## Lab scenario
 In this HOL, you will learn how to use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. This will include selecting Azure Migrate tools, deploying the Azure Migrate appliance into the on-premises environment, creating a migration assessment, using the Azure Migrate dependency visualization, right-sizing of on-premises resources and finally migrating the servers to Azure with Azure Migrate resource which provide provides a simplified migration, modernization, and optimization service for Azure.
 
-### Exercise 1: Create and Setup Azure Migrate Project and Appliance
+## Lab objectives (Duration: 60 minutes)
 
-In this exercise, you will create an Azure Migrate project and deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
+In this lab, you will complete the following tasks:
++ Task 1: Create and Setup Azure Migrate Project and Applicance.
+
+
+### Task 1: Create and Setup Azure Migrate Project and Applicance
+
+In this task, you will create an Azure Migrate project and deploy the Azure Migrate appliance in the on-premises Hyper-V environment. This appliance communicates with the Hyper-V server to gather configuration and performance data about your on-premises VMs, and returns that data to your Azure Migrate project.
 
 1. If you are not logged in already, click on Azure portal shortcut that is available on the desktop and log in with below Azure credentials.
     * Azure Username/Email: <inject key="AzureAdUserEmail"></inject> 
