@@ -1,8 +1,22 @@
-# Exercise : Migrate the on-premises database to Azure SQL Database
+# HOL 2 - Exercise 1 : Migrate the on-premises database to Azure SQL Database
 
-Duration: 55 minutes
+## Lab overview
 
-The next step of Part Unlimited's migration project is the assessment and migration of its database. Currently, the database lives on SQL Server 2008 R2 on a virtual machine. You will use an **Azure Migrate: Database Assessment** tool called **Microsoft Data Migration Assistant (DMA)** to assess the `PartsUnlimited` database for migration to Azure SQL Database. The assessment generates a report detailing any feature parity and compatibility issues between the on-premises database and Azure SQL Database. After the assessment, you will use an **Azure Migrate: Database Migration** service called **Azure Database Migration Service (DMS)**. During the exercise, you will use a simulated on-premises environment hosted on virtual machines running on Azure.
+Enabling the Azure Migrate to assess and migrate the onpremise databases,servers to check the readiness before migrating to azure. azure migrate helps in migrating machines from various sources such as on premise machine, hyper-v, VM-ware and different cloud providers.
+
+## Lab scenario
+In this HOL, you will learn how to use Azure Migrate service to assess and migrate the database to azure database. the Part Unlimited's migration project is the assessment and migration of its database. Currently, the database lives on SQL Server 2008 R2 on a virtual machine. You will use an **Azure Migrate: Database Assessment** tool called **Microsoft Data Migration Assistant (DMA)** to assess the `PartsUnlimited` database for migration to Azure SQL Database. The assessment generates a report detailing any feature parity and compatibility issues between the on-premises database and Azure SQL Database. After the assessment, you will use an **Azure Migrate: Database Migration** service called **Azure Database Migration Service (DMS)**. During the exercise, you will use a simulated on-premises environment hosted on virtual machines running on Azure.
+
+## Lab objectives (Duration: 55 minutes)
+
+In this lab, you will complete the following tasks:
++ Task 1: Connect to your SqlServer2008 VM with RDP.
++ Task 2: Perform assessment for migration to Azure SQL Database.
++ Task 3: Retrieve connection information for SQL Databases (Optional).
++ Task 4: Migrate the database schema using the Data Migration Assistant.
++ Task 5: Migrate the database using the Azure Database Migration Service.
++ Task 6: Configure the application connection to SQL Azure Database.
++ Task 7: 
 
 ## Task 1: Connect to your SqlServer2008 VM with RDP
 
