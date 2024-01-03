@@ -12,6 +12,10 @@ In this Lab, you will learn how to use Azure Migrate service to assess the on-pr
 In this lab, you will complete the following tasks:
 + Task 1: Create and Setup Azure Migrate Project and Applicance.
 
+## Architecture Diagram
+
+  ![Picture 1](Images/Azure-Migrate-Appliance-and-Migrate.png)
+
 
 ### Task 1: Create and Setup Azure Migrate Project and Applicance
 
