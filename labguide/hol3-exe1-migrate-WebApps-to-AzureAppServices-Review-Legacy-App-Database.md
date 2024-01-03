@@ -1,4 +1,4 @@
-# Lab 1 - Exercise 1: Review the Legacy On-Prem Application and SQL Database
+# Lab 3 - Exercise 1: Review the Legacy On-Prem Application and SQL Database
 
 ## Lab overview
 
