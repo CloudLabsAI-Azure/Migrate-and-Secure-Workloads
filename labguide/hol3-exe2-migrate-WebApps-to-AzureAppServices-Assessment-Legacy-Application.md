@@ -1,8 +1,19 @@
-# Exercise 2: Assessment of Legacy Application using Azure Migrate App Migration Assistant
+# Lab 3 - Exercise 2: Assessment of Legacy Application using Azure Migrate App Migration Assistant
 
-Duration: 10 minutes
+## Lab overview
 
+Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines, webapps and databases from on premise,hyper-v and different cloud providers.
+
+## Lab scenario
 Azure Migrate provides a centralized hub to assess and migrate on-premises servers, infrastructure, applications, and data to Azure. It provides a single portal to start, run, and track your migration to Azure. Azure Migrate comes with a range of tools for assessment and migration that we will use during our lab. We will use Azure Migrate as the central location for our assessment and migration efforts.
+
+## Lab objectives (Duration: 10 minutes)
+
+In this lab, you will complete the following tasks:
++ Task 1: Assessment of localhost website
+
+
+## Task 1: Assessment of localhost website
 
 1. From the Windows search bar, search for **Default apps** and select it.
 
@@ -36,7 +47,7 @@ Azure Migrate provides a centralized hub to assess and migrate on-premises serve
 
 ![Azure Migrate Web App assessment and migration tools are presented.](Images/After_adding_the_tools.png "Azure Migrate Web Apps Capabilities")  
 
-1. We will use **Azure App Service Migration Assistant** installed on the **WebVM** to do an assessment of the website.
+1. We will use **Azure App Service Migration Assistant** installed on the **HostVM** to do an assessment of the website.
 
     ![Azure Migrate Web App assessment and migration tools are presented.](Images/App_assiatant_image_machine_installed.png "Azure Migrate Web Apps Capabilities")
 
