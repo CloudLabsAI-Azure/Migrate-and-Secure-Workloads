@@ -1,7 +1,5 @@
 # Lab 3 - Exercise 3: Migrate your application with App Service Migration Assistant
 
-Duration: 20 minutes
-
 ## Lab overview
 
 Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines, webapps and databases from on premise,hyper-v and different cloud providers.
