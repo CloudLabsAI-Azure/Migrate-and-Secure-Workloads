@@ -1,4 +1,8 @@
-# Exercise : Secure Workloads with Defender for Cloud  
+# Lab 4 - Exercise 1 : Secure Workloads with Defender for Cloud  
+
+## Lab overview
+
+Microsoft Defender for Cloud, a comprehensive cloud security solution designed to protect workloads, applications, and data in cloud environments. The focus of the lab is on understanding and implementing security measures using Defender for Cloud to safeguard cloud-based workloads effectively.
 
 ## Lab scenario
  You are a Security Operations Analyst working at a company that is implementing Miccrosft azure Defender for cloud. You start by assigning preset security policies in EOP and Microsoft azure Defender for cloud.
