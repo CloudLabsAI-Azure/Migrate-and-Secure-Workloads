@@ -1,8 +1,22 @@
-# HOL 1: Migrate Windows and Linux Servers to Azure
+# HOL 1 - Exercise 3: Replicate and Migrate On-premises Virtual Machines to Azure, leveraging Microsoft services and tools including Azure Migrate: Server Migration
 
-Duration: 45 minutes
+## Lab overview
 
-## Exercise 3: Replicate and Migrate On-premises Virtual Machines to Azure, leveraging Microsoft services and tools including Azure Migrate: Server Migration
+Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
+
+## Lab scenario
+In this HOL, you will learn how to register the machines, how to enable the replication, configure the networking for the newly migrated machines and verify the migrated servers.
+
+## Lab objectives (Duration: 45 minutes)
+
+In this lab, you will complete the following tasks:
++ Task 1: Create a Storage Account.
++ Task 2: Register the Hyper-V Host with Migration and modernization.
++ Task 3: Enable Replication from Hyper-V to Azure Migrate.
++ Task 4: Configure Networking.
++ Task 5: Server migration.
++ Task 6: Verify Migrated Server.
+
 
 ### Task 1: Create a Storage Account
 
