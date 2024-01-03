@@ -2,7 +2,7 @@
 
 ## Lab overview
 
-Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines from on premise,hyper-v and different cloud providers.
+In this hands-on lab, participants will embark on the foundational steps of initiating an Azure migration project using Azure Migrate. The focus is on creating and setting up an Azure Migrate project, deploying the Azure Migrate appliance, and preparing the on-premises environment for a seamless migration to Azure.
 
 ## Lab scenario
 In this Lab, you will learn how to use Azure Migrate service to assess the on-premises environment and migrate the servers to Azure. you will be creating the azure migrate project and setting up the appliance machine for assessment and migrate.
