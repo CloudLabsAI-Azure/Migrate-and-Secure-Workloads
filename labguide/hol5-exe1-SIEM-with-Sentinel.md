@@ -1,4 +1,8 @@
-# Exercise : SIEM with Sentinel 
+# Lab 5 - Exercise 1 : SIEM with Sentinel 
+
+## Lab overview
+
+Microsoft Azure Sentinel, a cloud-native Security Information and Event Management (SIEM) solution. The focus of the lab is to provide hands-on experience in setting up and using Sentinel for effective security monitoring, threat detection, and response within an organization's cloud and on-premises environments.
 
 ## Lab scenario
 In this lab you will walk through the process of creating an  Microsoft Sentinel instance.  You will also set up the permissions to ensure access to the resources that will get deployed to support  Microsoft Sentinel.  Once this basic setup is done you will walk through the steps for connecting Microsoft Sentinel to your data sources, set up a workbook, and do a brief walk-through of some of key capabilities available in Microsoft Sentinel. 
@@ -35,7 +39,7 @@ In this lab, you will complete the following task:
    ![Picture 1](Images/image_9.png)
 
 
-## Task 2: Ingest Logs from Defender for Cloud and Azure Active Directory (Microsoft Entra ID) and Azure Activity
+## Task 2: Ingest Logs from Defender for Cloud, Azure Active Directory (Microsoft Entra ID) and Azure Activity
 
 1. Enabling Defender to monitor events
 
@@ -287,7 +291,7 @@ In this task, you will build KQL statements to aggregate data. **Summarize** gro
     | summarize make_set(Account) by Computer
     ```
 
-# Create visualizations in KQL with the Render Operator
+# Create visualizations in KQL with the Render Operator (Optional)
 
 In this task, you will use generate visualizations with KQL statements.
 
