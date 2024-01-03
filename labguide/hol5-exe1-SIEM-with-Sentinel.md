@@ -221,7 +221,7 @@ In this task, you will create a playbook for next task.
 
 1. Select Enable diagnostics logs in Log Analytics and select your workspace.
 
-1. Click on Next:Connections, Review + Create  and Click on Create and continue to designer.
+1. Click on Next: Connections, Review + Create  and Click on Create and continue to designer.
 
 ## Task 4: Query Logs With KQL
 
