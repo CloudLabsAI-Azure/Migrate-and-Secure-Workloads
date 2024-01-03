@@ -1,8 +1,20 @@
-# Exercise 3: Migrate your application with App Service Migration Assistant
+# Lab 3 - Exercise 3: Migrate your application with App Service Migration Assistant
 
 Duration: 20 minutes
 
+## Lab overview
+
+Azure Migrate is the Powerful tool which helps in assessing the machines readiness to migrate the Azure. this tool helps in migrate the machines, webapps and databases from on premise,hyper-v and different cloud providers.
+
+## Lab scenario
+
 The first step for Parts Unlimited is to assess whether their apps have dependencies on unsupported features on Azure App Service. In this exercise, you use an **Azure Migrate** tool called the App Service migration assistant to evaluate Parts Unlimited's web site for migration to Azure App Service. The assessment runs readiness checks and provides potential remediation steps for common issues. Once the assessment is successful, we will proceed with the migration as well. You will use a simulated on-premises environment hosted in virtual machines running on Azure.
+
+## Lab objectives (Duration: 10 minutes)
+
+In this lab, you will complete the following tasks:
++ Task 1: Perform assessment for migration to Azure App Service.
++ Task 2: Migrate the web application to Azure App Service.
 
 ## Task 1: Perform assessment for migration to Azure App Service
 
