@@ -37,9 +37,18 @@ Utilizing Azure Migrate, participants will assess the existing on-premises infra
 
 ## Sandbox Scenario
 
-Smathotel is a global organization with a complex IT infrastructure that includes a combination of hyper-v machines and cloud-based resources for another website partsunlimited. They are looking to migrate the machines, webapp and database to azure. and also want to enhance their security posture by deploying Azure Sentinel, and Azure Defender for Cloud. Microsoft's  sentinel is a cloud-native security information and event management (SIEM), and security orchestration automation and response (SOAR) solution. Additionally, Contoso aims to onboard its cloud resources and servers to Azure Sentinel to gain better visibility and proactive threat detection and response capabilities using the Azure Defender for Cloud.
+The SmartHotel application is currently hosted on an on-premises Hyper-V infrastructure. Participants will use Azure Migrate to assess the infrastructure, discover dependencies, and plan for migration. setup the appliance on the Azure Migrate appliance on the Hyper-V host. Conduct an infrastructure assessment using Azure Migrate, gathering information about VMs and dependencies. Utilize the Microsoft Monitoring Agent and Dependency Agent to visualize dependencies between different VMs. Plan the migration of the database, application, web, and web proxy tiers to Azure VMs using Azure Migrate: Server Migration. 
+
+The SQL Server database tier of the SmartHotel application needs to be migrated to Azure. Participants will use Microsoft Data Migration Assistant (DMA) for assessment and Azure Database Migration Service (DMS) for schema and data migration. Install DMA on the Hyper-V host to assess the SQL Server database. Use DMA to gather information about the database and identify migration considerations. Set up Azure Database Migration Service (DMS) to migrate the schema and data of the SQL Server database to Azure.
+
+The migrated infrastructure, including the database, application, web, and web proxy tiers, needs to be secured against advanced threats. Participants will onboard machines to Azure Defender for Cloud and configure security policies. Onboard the Machines to Azure Defender for Cloud. Configure security policies to protect against advanced threats and vulnerabilities.
+
+To enhance incident detection and response, participants will use Azure Sentinel as a SIEM solution. Azure Sentinel will be configured to centralize security event logs from the entire infrastructure. Configure Azure Sentinel to collect security event logs from Azure Defender For Cloud, Azure Activity and Microsoft Entra ID. Set up threat intelligence integration to enhance the platform's ability to detect potential threats. Create custom queries to detect security incidents and analyze security events.
+
+To streamline incident response, participants will leverage Azure Sentinel's playbook automation features. Playbooks will be created and executed for automated response actions. Develop playbooks for common incident response actions, tailored to the SmartHotel application's security requirements. Execute playbooks to automate response actions and enhance the efficiency of incident management.
 
 By implementing a robust Log analytics and threat detection program, Contoso aims to proactively identify and mitigate threats, reduce the risk of security breaches, and maintain a strong security posture in an ever-evolving threat landscape. This approach will enable Contoso to stay ahead of potential threats and protect its digital assets effectively.
+
 
 ## About the Sandbox
 
