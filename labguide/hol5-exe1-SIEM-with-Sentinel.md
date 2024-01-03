@@ -412,7 +412,7 @@ In this task, you will perform attacks on the host connected with Azure Arc that
 
 1. Connect to WINDOES SERVER virtual machine.
 
-1. Login to WINDOES SERVER virtual machine as Admin with the password: **Password.1!!**.  
+1. Login to WINDOES SERVER virtual machine as Admin with the password: ****<inject key="SQLVM Password"/>****.  
 
     >**Important:** The lab *SAVE* functionality can cause WINServer to become disconnected from Azure Arc. A reboot will solve the issue. 
 
