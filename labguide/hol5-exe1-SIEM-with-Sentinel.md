@@ -231,14 +231,6 @@ In this task, you will create a detection for the first attack of the previous e
      
 1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
 
-1. From the results, we now know that the Threat Actor is using startup.bat and the program is located in C:\temp. **Run** the following statement to replace the *search* operator with the *where* operator in our query:
-
-    ```KQL
-    SecurityEvent 
-    | where Activity startswith "4624" 
-    ```
-   ![Lab overview.](Images/sc200ex7log.png)
-
 1. It is important to help the Security Operations Center Analyst by providing as much context about the alert as you can. This includes projecting Entities for use in the investigation graph. **Run** the following query:
 
     ```KQL
@@ -246,6 +238,8 @@ In this task, you will create a detection for the first attack of the previous e
     | where Activity startswith "4624" 
     | extend timestamp = TimeGenerated, HostCustomEntity = Computer, AccountCustomEntity = SubjectUserName
     ```
+
+     ![Lab overview.](Images/sc200ex7log.png)
 
 1. Now that you have a good detection rule, in the Logs window, select the **+ New alert rule** in the command bar and then select **Create Microsoft Sentinel alert**. This will create a new Scheduled rule. **Hint:** You might need to select the ellipsis (...) button in the command bar.
 
