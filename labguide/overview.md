@@ -95,7 +95,9 @@ Using this environment, You'll be able to explore complete features and offering
 
 ## Lab guide Content:
 
-You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
+You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. 
+
+Based on your interests, you can use this lab guide as a reference to learn and test any Azure Migrate, Sentinel, Defender for Cloud feature.  You are also encouraged to explore additional features of Azure Migrate based on your interests and preferences.
 
 - Lab 1 - Migrate Windows & Linux Servers to Azure
   - Exercise 1 - Create setup azure migrate
