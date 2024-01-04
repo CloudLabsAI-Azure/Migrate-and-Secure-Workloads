@@ -58,9 +58,10 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Virtual Machines**: 
 
-- 2 *Windows Server Datacenter* Virtual machines for webapps, SQL server database. Virtual Machine with Hyper-V enabled and precreated hyper v guests to migrate to azure. machines are created and configured to use. virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
+- 2 *Windows Server Datacenter* Virtual machines, virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
 
-  You are recommended to use the same virtual machine throughout the lab for the best experience through out the lab.
+  These virtual machines are tailored and configured to the sandbox's specifications. Files, applications, packages, and OS configurations are all pre-configured. It is recommended that 
+  you use the same virtual machine throughout the lab for the best experience.
 
 #### **License and subscription**: 
 
