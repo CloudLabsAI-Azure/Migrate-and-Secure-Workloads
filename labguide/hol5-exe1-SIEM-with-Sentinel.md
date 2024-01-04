@@ -83,7 +83,9 @@ In this lab, you will complete the following task:
     cd \
     mkdir temp
     cd temp
+    notepad startup.bat
     ```
+1. Save the empty startup.bat file opened.
 
 1. Copy and run this command to simulate program persistence:
 
@@ -161,29 +163,12 @@ In this lab, you will complete the following task:
 
 # Privilege Elevation Attack with User Add
 
-In this task, you will perform attacks on the host connected with Azure Arc that has the Azure Monitor Agent configured.
+1. Login again to WINDOES SERVER virtual machine as Admin with the password: ****<inject key="SQLVM Password"/>****. if you get disconnected from the virtual machine.
 
->**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
-
-1. Connect to WINDOES SERVER virtual machine.
-
-1. Login to WINDOES SERVER virtual machine as Admin with the password: ****<inject key="SQLVM Password"/>****.  
-
-    >**Important:** The lab *SAVE* functionality can cause WINServer to become disconnected from Azure Arc. A reboot will solve the issue. 
-
-1. Select **Start** in Windows. Then **Power**, next **Restart**.
-
-1. Follow the instructions to log into WINServer again.
-
-1. In the search of the taskbar, enter *Command*. A Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
-
-1. In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
+1. Open the command prompt, In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
 
     ```CommandPrompt
     cd \
-    ```
-    ```CommandPrompt
-    mkdir temp
     ```
     ```CommandPrompt
     cd temp
