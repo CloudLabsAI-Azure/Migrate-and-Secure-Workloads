@@ -58,7 +58,7 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Virtual Machines**: 
 
-- 2 *Windows Server Datacenter* Virtual machines for webapps, SQl server database, and  Virtual Machine with Hyper-V enabled. machines are created and configured to use. virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
+- 2 *Windows Server Datacenter* Virtual machines for webapps, SQL server database. Virtual Machine with Hyper-V enabled and precreated hyper v guests to migrate to azure. machines are created and configured to use. virtual machine-related resources like Virtual networks, Network security groups, managed disks, Network interface cards, and IP addresses are deployed as part of the automation.
 
   You are recommended to use the same virtual machine throughout the lab for the best experience through out the lab.
 
@@ -97,20 +97,24 @@ Using this environment, You'll be able to explore complete features and offering
 
 You will have access to a lab guide which is a reference material to assist you in getting started with the exploration. You are encouraged to explore Microsoft Purview further based on your interests and preferences.
 
-- Lab 1
-  - exercise 1 - create setup azure migrate
-  - exercise 2 - discover assess workloads with appliance
-  - exercise 3 - migrate servers to azure
-- Lab 2
-  - exercise 1 - migrate SQLDatabase to AzureSQLDatabaseServices 
-- Lab3
-  - exercise 1 - migrate WebApps to AzureAppServices Review Legacy App Database
-  - exercise 2 - migrate WebApps to AzureAppServices Assessment Legacy Application
-  - exercise 3 - migrate WebApps to AzureAppServices Migrate Legacy Application
-- Lab 4
-  - exercise 1 - Secure Workloads with Defender for Cloud
-- hol5
-  - exercise 1 - SIEM with Sentinel
+- Lab 1 - Migrate Windows & Linux Servers to Azure
+  - Exercise 1 - Create setup azure migrate
+  - Exercise 2 - Discover assess workloads with appliance
+  - Exercise 3 - Migrate servers to azure
+    
+- Lab 2 - Migrate SQL Databases to Azure SQL
+  - Exercise 1 - Migrate SQLDatabase to AzureSQLDatabaseServices
+    
+- Lab3 - Migrate .Net Apps to Azure App Service
+  - Exercise 1 - Migrate WebApps to AzureAppServices Review Legacy App Database
+  - Exercise 2 - Migrate WebApps to AzureAppServices Assessment Legacy Application
+  - Exercise 3 - Migrate WebApps to AzureAppServices Migrate Legacy Application
+    
+- Lab 4 - Secure Workloads with Defender for Cloud
+  - Exercise 1 - Secure Workloads with Defender for Cloud
+    
+- Lab 5 - SIEM with Sentinel  
+  - Exercise 1 - SIEM with Sentinel
 
 ### Azure services and related products
 
