@@ -227,7 +227,6 @@ In this task, you will create a detection for the first attack of the previous e
     ```
    ![Lab overview.](Images/sc200ex7temp.png)
     
-    >**Note:** A result with the event might take up to 5 minutes to appear. Wait until it does. If it does not appear, make sure you have rebooted WINServer as instructed in the previous exercise and that you have completed Task #3 of the Learning Path 6 Lab, Exercise 2.
      
 1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
 
@@ -366,23 +365,21 @@ In this task, you will investigate an incident.
 
 1. Hide the left blade by selecting the **<<** icon next to the owner.
 
-1. Review the **Incident timeline** window. For the *Startup RegKey* alert, select the ellipsis **(...) (1)** icon and then **Run playbook (2)**. You will see the *Alert playbooks*. This option helps you to run playbooks manually.
-
-    ![Lab overview.](Images/runplaybook1.png)
-
-1. Close the *Alert playbooks* blade by selecting the **x** icon in the top right.
-
 1. Review the **Entities** window. At least the *Host* entity that we mapped within the KQL query from the previous exercise should appear. **Hint:** If no entities are shown, refresh the page.
 
 1. Select the **Tasks (Preview)** button from the command bar.
 
 1. Select **+ Add task**, type **Review who owns the machine** in the Title box and select **Save**.
 
+   ![Lab overview.](Images/clic_on_entitry_save.png)
+
 1. Close the *Incident tasks (Preview)* blade by selecting the **x** icon in the top right.
 
 1. Select the new **Activity Log** button from the command bar.
 
 1. Review the actions you have taken during this exercise.
+
+   ![Lab overview.](Images/review_activity_user_owner.png)
 
 1. Close the *Incident activity log* blade by selecting the **x** icon in the top right.
 
@@ -394,9 +391,9 @@ In this task, you will investigate an incident.
 
 1. Expand the left blade by selecting the **>>** icon. and then select the **Investigate** button.
 
-      ![Lab overview.](Images/clickinvestiagtion.png)
+      ![Lab overview.](Images/click_on_investigate_new.png)
 
-1. **Hover** the WINServer entity icon and wait for new *exploration queries* to be shown. It looks like *Related Alerts* has more data on it. Select the name of the exploration query **Related Alerts** to bring them to the investigation graph or select **Events >** to investigate them with a KQL query.
+1. **Hover** the WINDOWS server entity icon and wait for new *exploration queries* to be shown. It looks like *Related Alerts* has more data on it. Select the name of the exploration query **Related Alerts** to bring them to the investigation graph or select **Events >** to investigate them with a KQL query.
 
    ![Lab overview.](Images/investigation.png) 
 
@@ -404,18 +401,21 @@ In this task, you will investigate an incident.
 
 1. Close the query window by selecting the **X** icon at the top right to go back to the *Investigation* page.
 
-1. Now select the **WINServer** entity, a window on the right opens for more detailed information. Review the **Info** page.
+1. Now select the **WINDOWS Server** entity, a window on the right opens for more detailed information. Review the **Info** page.
 
 1. Select **Timeline** button. Hover the incidents and see which things on the graph occurred at what point in time.
 
-1. Select **Entities** button and review the *Entities* and *Alerts* related to *WINServer*.
+1. Select **Entities** button and review the *Entities* and *Alerts* related to *WINDOWS Server*.
 
 1. Close the investigation graph by selecting the **X** icon at the top right of the page.
+
+   ![Lab overview.](Images/see_when_incident_happenred.png) 
 
 1. Back in the incident page, in the left pane select **Active Status** and select **Closed**. 
 
 1. In the *Select classification* drop-down review the different options. After that, select **True positive - suspicious activity** and then select **Apply**.
 
+   ![Lab overview.](Images/Close_apply.png) 
 
 ## Summary
  
