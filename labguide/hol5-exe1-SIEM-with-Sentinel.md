@@ -365,8 +365,6 @@ In this task, you will investigate an incident.
 
 1. Hide the left blade by selecting the **<<** icon next to the owner.
 
-1. Review the **Entities** window. At least the *Host* entity that we mapped within the KQL query from the previous exercise should appear. **Hint:** If no entities are shown, refresh the page.
-
 1. Select the **Tasks (Preview)** button from the command bar.
 
 1. Select **+ Add task**, type **Review who owns the machine** in the Title box and select **Save**.
