@@ -87,11 +87,13 @@ Using this environment, You'll be able to explore complete features and offering
 
 #### **Best practices**: 
 
-- **Resources usage**: Please stop the virtual machines and other resources when not in use in order to minimize the Azure spend.
+- **Resources usage**: Please stop the virtual machines and other resources when not in use to minimize the Azure spend.
 
-- **Azure Cost Analysis**: Maintain a practice of checking the Cost Analysis report of the assigned Azure subscription oftenly in check the Azure spend so that enviornment for a longer duration of time.
+- **Azure Cost Analysis**: Maintain a practice of checking the Cost Analysis report of the assigned Azure subscription often in check the Azure spending so that the environment can be 
+    retained for a longer duration of time.
 
-- **Alert notifications**: Make sure to check your registered email's inbox for any alert-related mails. Alerts give you can head start to keep your Azure spending in control and to plan out the remaining credits in the best way possible.
+- **Alert notifications**: Make sure to check your registered email's inbox for any alert-related mails. Alerts give you can head start to keep your Azure spending in control and to plan 
+    out the remaining credits in the best way possible.
 
 ## Lab guide Content:
 
