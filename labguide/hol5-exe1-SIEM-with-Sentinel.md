@@ -368,7 +368,7 @@ In this task, you will investigate an incident.
 
 1. Review the **Incident timeline** window. For the *Startup RegKey* alert, select the ellipsis **(...) (1)** icon and then **Run playbook (2)**. You will see the *Alert playbooks*. This option helps you to run playbooks manually.
 
-    ![Lab overview.](Images/runplaybook.png)
+    ![Lab overview.](Images/runplaybook1.png)
 
 1. Close the *Alert playbooks* blade by selecting the **x** icon in the top right.
 
