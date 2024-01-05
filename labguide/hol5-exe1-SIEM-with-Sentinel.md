@@ -73,7 +73,7 @@ In this lab, you will complete the following task:
 
 # Persistence Attack with Registry Key Add 
 
-1. Log into WINDOWS Server again.
+1. Log into SQLVM WINDOWS Server again.
 
 1. In the search of the task bar, enter *Command*. Command Prompt will be displayed in the search results. Right-click on the Command Prompt and select **Run as Administrator**. Select **Yes** in the User Account Control window that appears to allow the app to run.
 
@@ -157,15 +157,15 @@ In this lab, you will complete the following task:
     
       ![Lab overview.](Images/cmd.png)
    
-    >**Note:** You will see DNS resolve errors. This is expected.
+    >**Note:** If You see DNS resolve errors. This is expected.
 
     >**Important**: Do not close these windows. Let this PowerShell script run in the background. The command needs to generate log entries for some hours. You can proceed to the next task and next exercises while this script runs. The data created by this task will be used in the Threat Hunting lab later. This process will not create substantial amounts of data or processing.
 
 # Privilege Elevation Attack with User Add
 
-1. Login again to WINDOES SERVER virtual machine as Admin with the password: ****<inject key="SQLVM Password"/>****. if you get disconnected from the virtual machine.
+1. Login to SQLVM WINDOES SERVER virtual machine again with the password: ****<inject key="SQLVM Password"/>****. if you get disconnected from the virtual machine.
 
-1. Open the command prompt, In the Command Prompt, create a Temp folder in the root directory. Remember to press Enter after the last row:
+1. Open the command prompt, In the Command Prompt, navigate to the Temp folder again.
 
     ```CommandPrompt
     cd \
@@ -210,9 +210,7 @@ In this task, you will create a playbook for next task.
 
 ## Task 4: Query Logs With KQL
 
->**Important:** The next steps are done on a different machine than the one you were previously working on. Look for the Virtual Machine name references.
-
-In this task, you will create a detection for the first attack of the previous exercise.
+In this task, you will create a detection for the first attack of the previous task.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
@@ -349,7 +347,6 @@ In this task, you will investigate an incident.
 1. Review the incident details on the right blade that opened. Scroll down and select the **View full details** button.
 
     ![Lab overview.](Images/SC_new_startup_check_sentinel.png)
-
 
 1. On the left blade of the incident, change the Status to **Active** and then select **Apply**.
 
