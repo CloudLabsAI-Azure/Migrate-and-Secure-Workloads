@@ -173,7 +173,7 @@ In this task, you will create an Azure Migrate project and deploy the Azure Migr
 28. On the **Add discovery source** blade, provide the following details:
      
       1. Select **Add single item (1)**
-      1. IP Address / FQDN:  Enter **HOSTVMS<inject key="DeploymentID" enableCopy="false" /> (2)** 
+      1. IP Address / FQDN:  Enter **TESTVM (2)** 
       1. Friendly name: Select **hostlogin (3)** from the dropdown and 
       1. Select **Save (4)**.
 
