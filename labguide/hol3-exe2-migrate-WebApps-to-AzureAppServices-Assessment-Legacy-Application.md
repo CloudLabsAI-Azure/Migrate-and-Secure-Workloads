@@ -51,21 +51,19 @@ In this lab, you will complete the following tasks:
 
 ![Azure Migrate Web App assessment and migration tools are presented.](Images/After_adding_the_tools.png "Azure Migrate Web Apps Capabilities")  
 
-1. We will use **Azure App Service Migration Assistant** installed on the **HostVM** to do an assessment of the website.
+6. We will use **Azure App Service Migration Assistant** installed on the **HostVM** to do an assessment of the website.
 
     ![Azure Migrate Web App assessment and migration tools are presented.](Images/App_assiatant_image_machine_installed.png "Azure Migrate Web Apps Capabilities")
 
-1. Please open the app service migration assistant and select the webiste named **Default Web site** to perform the assessment and click on **Next**.
+7. Please open the app service migration assistant and select the webiste named **Default Web site** to perform the assessment and click on **Next**.
 
     ![Azure Migrate Database Assessment option is selected for Azure Migrate tools. Add tool button is highlighted.](Images/Doing_Assessment_of_webiste_chosse.png "Azure Migrate Database Assessment Tools")
 
-
-1. We are done with the assessment of the website, the assessment reports will show the compatibility of as success, error and warning for the website to migrate to azure app service.
+8. We are done with the assessment of the website, the assessment reports will show the compatibility of as success, error and warning for the website to migrate to azure app service.
 
     ![Azure Migrate Database Assessment option is selected for Azure Migrate tools. Add tool button is highlighted.](Images/assessment_done_will_cehck_afterwards.png "Azure Migrate Database Assessment Tools")
 
-
-1. Under the Azure Migrate umbrella, we now have all of the necessary assessment and migration tools ready for **Parts Unlimited** website to migrate to azure app services and in the next excercise you will learn on how to migrate the **Parts Unlimited** to App Services. .
+9. Under the Azure Migrate umbrella, we now have all of the necessary assessment and migration tools ready for **Parts Unlimited** website to migrate to azure app services and in the next excercise you will learn on how to migrate the **Parts Unlimited** to App Services. .
 
     
 ## Summary
