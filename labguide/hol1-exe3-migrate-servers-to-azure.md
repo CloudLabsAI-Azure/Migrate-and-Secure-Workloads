@@ -15,7 +15,6 @@ In this lab, you will complete the following tasks:
 + Task 3: Enable Replication from Hyper-V to Azure Migrate.
 + Task 4: Configure Networking.
 + Task 5: Server migration.
-+ Task 6: Verify Migrated Server.
 
 
 ## Architecture Diagram
@@ -269,9 +268,6 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/migraste_RG_check.png "Migrated resources")
 
-#### Task summary 
-
-In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
 
 
 #### Task summary 
