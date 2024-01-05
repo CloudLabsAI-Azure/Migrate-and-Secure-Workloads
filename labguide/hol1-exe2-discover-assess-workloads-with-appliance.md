@@ -207,12 +207,6 @@ In this task, you will configure the Azure Migrate dependency visualization feat
      apt-get update
      ```
 
-29. Enter the following command, substituting \<Workspace ID\> with the value copied earlier:
-
-    ```s
-    /opt/microsoft/omsagent/bin/service_control restart <Workspace ID>
-    ```
-
 30. Enter the following command. This downloads a script that will install the Dependency Agent.
 
     ```s
