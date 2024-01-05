@@ -274,29 +274,6 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 In this task you used Azure Migrate to create Azure VMs using the settings you have configured, and the data replicated from the Hyper-V machines. This migrated your on-premises VMs to Azure.
 
 
-### Task 6: Verify Migrated Server
-
-Now, to verify the Virtual Machines you migrated. you need to connect to it using bastion service.
-
-1. From the Azure portal menu, which is present at the top left, click on **All services**. Select **compute** from the left-hand menu and select **Virtual machines**.
-
-2. Click on **virtual machine you want to verify**, from the overview blade, and select **Connect**. Select **Bastion** from the available options and click on **Use Bastion**.
-
-     ![Screenshot showing the Azure Bastion connection blade.](Images/USe_Azure_Bastion.png "Connect using Bastion")
-
-   >**Note**: You may have to wait a few minutes and refresh to have the option to enter the credentials. 
-
-3. Connect to the machine with the username **Administrator (1)** and the password **<inject key="SmartHotel Admin Password"></inject> (2)** and then click on **Connect (3)**. When prompted, **Allow** clipboard access.
-
-    >**Note**: You might have to allow pop-ups in order to access the bastion session.
-
-      ![Screenshot showing the Azure Bastion connection blade.](Images/try_connection_page_bastion.png "Connect using Bastion")
-
-4. After Successful authentication you will be able to connect to the virtual machine on your browser.
-
-      ![Screenshot showing the Azure Bastion connection blade.](Images/Use_Bastion_browser_done.png "Connect using Bastion")
-
-
 #### Task summary 
 
 In this exercise you configured an Azure Migrate migration replication server and configured the Azure Storage account for storing the metadata of the servers while replication and migration. and connect using bastion service to verify the migrated servers.
