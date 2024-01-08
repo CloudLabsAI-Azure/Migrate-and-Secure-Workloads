@@ -11,10 +11,11 @@ In this Lab, you will learn how to register the machines, how to enable the repl
 
 In this lab, you will complete the following tasks:
 + Task 1: Create a Storage Account.
-+ Task 2: Register the Hyper-V Host with Migration and modernization.
++ Task 2: Register the Hyper-V Host with Migration and Modernization.
 + Task 3: Enable Replication from Hyper-V to Azure Migrate.
 + Task 4: Configure Networking.
-+ Task 5: Server migration.
++ Task 5: Server Migration.
++ Task 6: Verify Migration
 
 
 ## Architecture Diagram
@@ -238,7 +239,7 @@ In this task you modified the settings for each replicated VM to use a static pr
 
 ### Task 5: Server migration
 
-In this task you will perform a migration of the WindowsServer, redhat machines to Azure.
+In this task you will perform a migration of the WindowsServer, Linux machines to Azure.
 
 > **Note**: In a real-world scenario, you would perform a test migration before the final migration. To save time, you will skip the test migration in this lab. The test migration process is very similar to the final migration.
 
@@ -267,6 +268,27 @@ In this task you will perform a migration of the WindowsServer, redhat machines 
 6. Navigate to the **MigrateServers** resource group and check that the VM, network interface, and disk resources have been created for each of the virtual machines being migrated.
 
     ![Screenshot showing resources created by the test failover (VMs, disks, and network interfaces).](Images/migraste_RG_check.png "Migrated resources")
+
+
+### Task summary
+In this task you have successfully migrated the Onpremise Machines to Azure and navigated to resource group to check the migrated servers created.
+
+
+### Task 6: verify migration
+
+In this task you will verify the machines migrated to Azure via logging into the machine using Bastion Service.
+
+1. Click on the Migrated Machine click **Connect** on overview blade. Select the  **connect via Bastion**.
+
+    ![Screenshot of the 'Azure Migrate: Server Migration' overview blade, with the 'Migrate' button highlighted.](Images/USe_Azure_Bastion.png "Replication summary")
+
+2. On the **Connect Via Bastion** blade, Provide the authentication type, username, password and click on **Connect**
+
+    ![Screenshot of the 'Migrate' blade, with 3 machines selected and the 'Migrate' button highlighted.](Images/try_connection_page_bastion.png "Migrate - VM selection")
+
+3. You will be redirected to a new tab on the browser on a connected machine .
+
+    ![Screenshot showing 3 VM migration notifications.](Images/Use_Bastion_browser_done.png "Migration started notifications")
 
 
 
