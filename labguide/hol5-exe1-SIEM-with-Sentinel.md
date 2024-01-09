@@ -61,6 +61,14 @@ In this lab, you will complete the following task:
 
    ![Picture 1](Images/Sentinel_course_6_dataconnectors_1_new.png)
 
+
+1. On the left menu under the Content management section select **Content hub**.
+
+1. On the content hub page search for **Windows security events** and select, Install.
+
+ ![Picture 1](Images/Lab02-task1-contenthub.png)
+
+
 1. Now you need to click on install the conenctor of Microsoft Defender for Cloud, Microsoft 365 Defender, Azure Active Directory (Microsoft Entra ID) and Azure Activity  to get the logs 
    into the Sentinel
 
