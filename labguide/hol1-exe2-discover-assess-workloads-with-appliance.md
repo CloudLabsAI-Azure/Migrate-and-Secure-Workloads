@@ -86,7 +86,7 @@ In this task, you will configure the Azure Migrate dependency visualization feat
 5. On the **Configure Log Analytics workspace** blade, provide the below information and select **Configure (4)**.
 
    - Log Analytics workspace: Click on **Create new (1)** and enter **AzureMigrateWS<inject key="DeploymentID" enableCopy="false" /> (2)**
-   - Log Analytics workspace location: Select **<inject key="Azure Migrate Project Name"></inject> (3)** from the dropdown.
+   - Log Analytics workspace location: Select **<inject key="Region"></inject> (3)** from the dropdown.
 
     ![Screenshot of the Azure Migrate 'Configure OMS workspace' blade.](Images/upd-createLAW.png "OMS Workspace settings")
 
