@@ -228,14 +228,6 @@ In this task, you will create a detection for the first attack of the previous t
 
 1. **Run** the following KQL Statement again to recall the tables where we have this data:
 
-    ```KQL
-    search "temp\\startup.bat"
-    ```
-   ![Lab overview.](Images/sc200ex7temp.png)
-    
-     
-1. The table *SecurityEvent* looks to have the data already normalized and is easy for us to query. Expand the row to see all the columns related to the record.
-
 1. It is important to help the Security Operations Center Analyst by providing as much context about the alert as you can. This includes projecting Entities for use in the investigation graph. **Run** the following query:
 
     ```KQL
