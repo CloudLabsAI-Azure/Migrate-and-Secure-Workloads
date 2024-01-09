@@ -328,6 +328,7 @@ In this task, you will create a detection for the second attack of the previous 
 
    ![Screenshot](Images/SC200_sysmon_attack3.png)
 
+ >**Note:** if you did not get any output of the below commmands, no need to worry the events may not happened till now or get detected by the log anaytics agent. 
 
 # Investigate an incident
 
